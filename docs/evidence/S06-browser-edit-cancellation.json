@@ -1,0 +1,91 @@
+{
+  "recordedAt": "2026-10-19T14:59:45.586Z",
+  "test": "S06 editing a live comparison invalidates its old generation and future chord",
+  "browserVersion": "157.0",
+  "project": "firefox",
+  "node": "v24.14.0",
+  "verification": "Actual application UI with native browser AudioContext. Lifecycle events are synthetic automation. No physical listening, iOS/Android device, phone interruption, Bluetooth or acoustic latency result is implied.",
+  "observations": [
+    {
+      "label": "comparison",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 5,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 6,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.7013333333333334,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 5,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.08000000000000007,
+          "endAt": 3.021333333333333
+        }
+      }
+    },
+    {
+      "label": "after-edit",
+      "diagnostics": {
+        "phase": "ready",
+        "generation": 7,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 0,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 6,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.8906666666666667,
+        "contextState": "running",
+        "transport": {
+          "mode": null,
+          "activeGeneration": null,
+          "timerCount": 0,
+          "pending": false,
+          "elapsed": 0,
+          "endAt": null
+        }
+      }
+    },
+    {
+      "label": "past-stale-comparison-end",
+      "diagnostics": {
+        "phase": "ready",
+        "generation": 7,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 0,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 6,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 3.56,
+        "contextState": "running",
+        "transport": {
+          "mode": null,
+          "activeGeneration": null,
+          "timerCount": 0,
+          "pending": false,
+          "elapsed": 0,
+          "endAt": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Preserve the supplied reference documents/assets and deterministic release hashes
+# byte-for-byte across Windows and the Linux deployment builder.
+* -text

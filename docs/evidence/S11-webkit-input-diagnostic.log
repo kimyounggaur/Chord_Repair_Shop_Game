@@ -1,0 +1,325 @@
+{
+  "notes": "음 조각 2E43음선택됨 · 바꾸기",
+  "events": [
+    {
+      "type": "scroll"
+    },
+    {
+      "type": "pointermove",
+      "target": "STRONG",
+      "x": 766,
+      "y": 465,
+      "id": 1,
+      "primary": true,
+      "detail": 0
+    },
+    {
+      "type": "pointerdown",
+      "target": "STRONG",
+      "x": 766,
+      "y": 465,
+      "id": 1,
+      "primary": true,
+      "detail": 1
+    },
+    {
+      "type": "pointerup",
+      "target": "STRONG",
+      "x": 766,
+      "y": 465,
+      "id": 1,
+      "primary": true,
+      "detail": 1
+    },
+    {
+      "type": "click",
+      "target": "STRONG",
+      "x": 766,
+      "y": 465,
+      "id": 1,
+      "primary": true,
+      "detail": 1
+    },
+    {
+      "type": "blur",
+      "target": "MAIN",
+      "detail": 0
+    },
+    {
+      "type": "scroll"
+    },
+    {
+      "type": "pointermove",
+      "target": "SPAN",
+      "x": 766,
+      "y": 465,
+      "id": 1,
+      "primary": true,
+      "detail": 0
+    },
+    {
+      "type": "pointermove",
+      "target": "BUTTON",
+      "x": 955,
+      "y": 223,
+      "id": 1,
+      "primary": true,
+      "detail": 0
+    },
+    {
+      "type": "pointerdown",
+      "target": "BUTTON",
+      "x": 955,
+      "y": 223,
+      "id": 1,
+      "primary": true,
+      "detail": 1
+    },
+    {
+      "type": "blur",
+      "target": "note-input-63",
+      "detail": 0
+    },
+    {
+      "type": "pointerup",
+      "target": "BUTTON",
+      "x": 955,
+      "y": 223,
+      "id": 1,
+      "primary": true,
+      "detail": 1
+    },
+    {
+      "type": "click",
+      "target": "BUTTON",
+      "x": 955,
+      "y": 223,
+      "id": 1,
+      "primary": true,
+      "detail": 1
+    },
+    {
+      "type": "blur",
+      "target": "MAIN",
+      "detail": 0
+    },
+    {
+      "type": "pointermove",
+      "target": "SPAN",
+      "x": 478,
+      "y": 366,
+      "id": 1,
+      "primary": true,
+      "detail": 0
+    },
+    {
+      "type": "pointerdown",
+      "target": "SPAN",
+      "x": 478,
+      "y": 366,
+      "id": 1,
+      "primary": true,
+      "detail": 1
+    },
+    {
+      "type": "blur",
+      "target": "note-input-63",
+      "detail": 0
+    },
+    {
+      "type": "pointerup",
+      "target": "SPAN",
+      "x": 478,
+      "y": 366,
+      "id": 1,
+      "primary": true,
+      "detail": 1
+    },
+    {
+      "type": "click",
+      "target": "SPAN",
+      "x": 478,
+      "y": 366,
+      "id": 1,
+      "primary": true,
+      "detail": 1
+    },
+    {
+      "type": "scroll"
+    }
+  ],
+  "profile": {
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "revision": 6,
+    "settings": {
+      "mute": true,
+      "volume": 0.35,
+      "inputMode": "pads",
+      "reducedMotion": false,
+      "notation": "letters"
+    },
+    "attempts": [
+      {
+        "attemptId": "a927274d-11e3-4f5b-b4ee-da68c463c5cf",
+        "orderId": "CR01",
+        "contentVersion": "1.0.0",
+        "revision": 1,
+        "notes": [
+          60,
+          64,
+          67
+        ],
+        "evidence": {
+          "evidenceStatus": "known",
+          "firstSubmission": {
+            "status": "incorrect",
+            "revision": 0,
+            "submissionId": "a927274d-11e3-4f5b-b4ee-da68c463c5cf:1"
+          },
+          "finalSuccess": false,
+          "maxRepairHintLevel": 2,
+          "maxReflectionHintLevel": 0,
+          "answerRevealedBeforeFirstAnswer": true,
+          "firstReflectionAnswer": null,
+          "latestReflectionAnswer": null,
+          "reflectionSkipped": false
+        },
+        "completionId": null,
+        "updatedAt": 1792422702713
+      }
+    ],
+    "progress": [
+      {
+        "orderId": "CR01",
+        "receipt": null,
+        "first": {
+          "attemptId": "a927274d-11e3-4f5b-b4ee-da68c463c5cf",
+          "orderId": "CR01",
+          "contentVersion": "1.0.0",
+          "revision": 1,
+          "notes": [
+            60,
+            64,
+            67
+          ],
+          "evidence": {
+            "evidenceStatus": "known",
+            "firstSubmission": {
+              "status": "incorrect",
+              "revision": 0,
+              "submissionId": "a927274d-11e3-4f5b-b4ee-da68c463c5cf:1"
+            },
+            "finalSuccess": false,
+            "maxRepairHintLevel": 2,
+            "maxReflectionHintLevel": 0,
+            "answerRevealedBeforeFirstAnswer": true,
+            "firstReflectionAnswer": null,
+            "latestReflectionAnswer": null,
+            "reflectionSkipped": false
+          },
+          "completionId": null,
+          "updatedAt": 1792422702713
+        },
+        "latest": {
+          "attemptId": "a927274d-11e3-4f5b-b4ee-da68c463c5cf",
+          "orderId": "CR01",
+          "contentVersion": "1.0.0",
+          "revision": 1,
+          "notes": [
+            60,
+            64,
+            67
+          ],
+          "evidence": {
+            "evidenceStatus": "known",
+            "firstSubmission": {
+              "status": "incorrect",
+              "revision": 0,
+              "submissionId": "a927274d-11e3-4f5b-b4ee-da68c463c5cf:1"
+            },
+            "finalSuccess": false,
+            "maxRepairHintLevel": 2,
+            "maxReflectionHintLevel": 0,
+            "answerRevealedBeforeFirstAnswer": true,
+            "firstReflectionAnswer": null,
+            "latestReflectionAnswer": null,
+            "reflectionSkipped": false
+          },
+          "completionId": null,
+          "updatedAt": 1792422702713
+        },
+        "attemptCount": 1,
+        "completionCount": 0,
+        "assistedCount": 1
+      }
+    ],
+    "draft": {
+      "sequence": 8,
+      "state": {
+        "schemaVersion": 1,
+        "orderId": "CR01",
+        "contentVersion": "1.0.0",
+        "attemptId": "a927274d-11e3-4f5b-b4ee-da68c463c5cf",
+        "revision": 1,
+        "app": "ready",
+        "learning": "editing",
+        "audio": "locked",
+        "storage": "clean",
+        "screen": "workbench",
+        "notes": [
+          60,
+          64,
+          67
+        ],
+        "selectedSlot": 1,
+        "undo": [
+          {
+            "notes": [
+              60,
+              63,
+              67
+            ],
+            "selectedSlot": 1
+          }
+        ],
+        "demoSnapshot": null,
+        "pendingGrade": null,
+        "submissionSequence": 1,
+        "lastGrade": null,
+        "completionId": null,
+        "evidence": {
+          "evidenceStatus": "known",
+          "firstSubmission": {
+            "status": "incorrect",
+            "revision": 0,
+            "submissionId": "a927274d-11e3-4f5b-b4ee-da68c463c5cf:1"
+          },
+          "finalSuccess": false,
+          "maxRepairHintLevel": 2,
+          "maxReflectionHintLevel": 0,
+          "answerRevealedBeforeFirstAnswer": true,
+          "firstReflectionAnswer": null,
+          "latestReflectionAnswer": null,
+          "reflectionSkipped": false
+        },
+        "reflection": {
+          "phase": "question",
+          "seed": 1742104971,
+          "optionIds": [
+            "CR01:option:1",
+            "CR01:option:2",
+            "CR01:option:0"
+          ]
+        },
+        "settings": {
+          "mute": true,
+          "volume": 0.35,
+          "inputMode": "pads",
+          "reducedMotion": false,
+          "notation": "letters"
+        }
+      }
+    }
+  }
+}

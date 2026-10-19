@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "mapping_is_production_choice": true,
+  "orders": [
+    {
+      "order_id": "CR01",
+      "customer_id": "customer-01",
+      "prop_id": "prop-musicbox-a",
+      "before": {
+        "customer": "runtime/customers/customer-01-neutral.webp",
+        "prop": "runtime/props/prop-musicbox-a-original.webp"
+      },
+      "completion": {
+        "customer": "runtime/customers/customer-01-thanks.webp",
+        "prop": "runtime/props/prop-musicbox-a-repaired.webp"
+      },
+      "note": "Art pairing only. Do not derive target notes, chord roles, timbre or success from art."
+    },
+    {
+      "order_id": "CR02",
+      "customer_id": "customer-02",
+      "prop_id": "prop-musicbox-a",
+      "before": {
+        "customer": "runtime/customers/customer-02-neutral.webp",
+        "prop": "runtime/props/prop-musicbox-a-original.webp"
+      },
+      "completion": {
+        "customer": "runtime/customers/customer-02-thanks.webp",
+        "prop": "runtime/props/prop-musicbox-a-repaired.webp"
+      },
+      "note": "Art pairing only. Do not derive target notes, chord roles, timbre or success from art."
+    },
+    {
+      "order_id": "CR03",
+      "customer_id": "customer-03",
+      "prop_id": "prop-pluckbox-b",
+      "before": {
+        "customer": "runtime/customers/customer-03-neutral.webp",
+        "prop": "runtime/props/prop-pluckbox-b-original.webp"
+      },
+      "completion": {
+        "customer": "runtime/customers/customer-03-thanks.webp",
+        "prop": "runtime/props/prop-pluckbox-b-repaired.webp"
+      },
+      "note": "Art pairing only. Do not derive target notes, chord roles, timbre or success from art."
+    },
+    {
+      "order_id": "CR04",
+      "customer_id": "customer-04",
+      "prop_id": "prop-reedbox-c",
+      "before": {
+        "customer": "runtime/customers/customer-04-neutral.webp",
+        "prop": "runtime/props/prop-reedbox-c-original.webp"
+      },
+      "completion": {
+        "customer": "runtime/customers/customer-04-thanks.webp",
+        "prop": "runtime/props/prop-reedbox-c-repaired.webp"
+      },
+      "note": "Art pairing only. Do not derive target notes, chord roles, timbre or success from art."
+    },
+    {
+      "order_id": "CR05",
+      "customer_id": "customer-01",
+      "prop_id": "prop-pluckbox-b",
+      "before": {
+        "customer": "runtime/customers/customer-01-neutral.webp",
+        "prop": "runtime/props/prop-pluckbox-b-original.webp"
+      },
+      "completion": {
+        "customer": "runtime/customers/customer-01-thanks.webp",
+        "prop": "runtime/props/prop-pluckbox-b-repaired.webp"
+      },
+      "note": "Art pairing only. Do not derive target notes, chord roles, timbre or success from art."
+    },
+    {
+      "order_id": "CR06",
+      "customer_id": "customer-02",
+      "prop_id": "prop-reedbox-c",
+      "before": {
+        "customer": "runtime/customers/customer-02-neutral.webp",
+        "prop": "runtime/props/prop-reedbox-c-original.webp"
+      },
+      "completion": {
+        "customer": "runtime/customers/customer-02-thanks.webp",
+        "prop": "runtime/props/prop-reedbox-c-repaired.webp"
+      },
+      "note": "Art pairing only. Do not derive target notes, chord roles, timbre or success from art."
+    },
+    {
+      "order_id": "CR07",
+      "customer_id": "customer-03",
+      "prop_id": "prop-musicbox-a",
+      "before": {
+        "customer": "runtime/customers/customer-03-neutral.webp",
+        "prop": "runtime/props/prop-musicbox-a-original.webp"
+      },
+      "completion": {
+        "customer": "runtime/customers/customer-03-thanks.webp",
+        "prop": "runtime/props/prop-musicbox-a-repaired.webp"
+      },
+      "note": "Art pairing only. Do not derive target notes, chord roles, timbre or success from art."
+    },
+    {
+      "order_id": "CR08",
+      "customer_id": "customer-04",
+      "prop_id": "prop-pluckbox-b",
+      "before": {
+        "customer": "runtime/customers/customer-04-neutral.webp",
+        "prop": "runtime/props/prop-pluckbox-b-original.webp"
+      },
+      "completion": {
+        "customer": "runtime/customers/customer-04-thanks.webp",
+        "prop": "runtime/props/prop-pluckbox-b-repaired.webp"
+      },
+      "note": "Art pairing only. Do not derive target notes, chord roles, timbre or success from art."
+    }
+  ]
+}

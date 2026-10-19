@@ -1,0 +1,12 @@
+import {readFileSync,readdirSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {spawnSync} from 'node:child_process';
+const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
+const walk=path=>readdirSync(path,{withFileTypes:true}).flatMap(row=>row.isDirectory()?walk(`${path}/${row.name}`):[`${path}/${row.name}`]);
+const rows=paths=>paths.sort().map(path=>({path,sha256:sha(readFileSync(path))}));
+const source=rows([...walk('src'),'index.html','vite.config.ts','tsconfig.json','package.json','vercel.json','scripts/build-release.mjs']);
+const identity={appVersion:JSON.parse(readFileSync('package.json','utf8')).version,contentVersion:'1.0.0',sourceSha256:sha(JSON.stringify(source)),contentSha256:sha(readFileSync('src/content/orders.v1.json')),assetManifestSha256:sha(readFileSync('public/assets/chord-repair-shop/source-manifest.json')),lockfileSha256:sha(readFileSync('package-lock.json'))};
+const git=spawnSync('git',['rev-parse','HEAD'],{encoding:'utf8',windowsHide:true});
+const artifacts=rows(walk('dist').filter(path=>!path.endsWith('/release.json'))).map(row=>({...row,path:row.path.slice(5)}));
+const manifest={releaseId:`chord-repair-${identity.appVersion}-${sha(JSON.stringify(identity)).slice(0,16)}`,...identity,gitCommit:process.env.VERCEL_GIT_COMMIT_SHA??(git.status===0?git.stdout.trim():null),classification:'development-candidate',manualGates:'Physical mobile audio, assistive technology, human listening and user observation not verified.',artifactManifestSha256:sha(JSON.stringify(artifacts)),artifacts};
+writeFileSync('dist/release.json',JSON.stringify(manifest,null,2)+'\n');console.log(JSON.stringify({releaseId:manifest.releaseId,gitCommit:manifest.gitCommit,artifactManifestSha256:manifest.artifactManifestSha256}));

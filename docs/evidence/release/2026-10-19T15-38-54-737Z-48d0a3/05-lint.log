@@ -1,0 +1,5 @@
+
+> chord-repair-shop@1.0.0 lint
+> node scripts/lint.mjs
+
+Architecture and unsafe-escape checks passed

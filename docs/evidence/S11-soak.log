@@ -1,0 +1,36 @@
+{"elapsedMinutes":0,"cycles":0,"heap":4145972,"listeners":212,"timers":0,"voices":0}
+{"elapsedMinutes":1,"cycles":18,"heap":5183332,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":2.1,"cycles":36,"heap":5446784,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":3,"cycles":54,"heap":5570764,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":4,"cycles":71,"heap":5573120,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":5,"cycles":90,"heap":5608404,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":6,"cycles":107,"heap":5648352,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":7,"cycles":125,"heap":5664544,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":8,"cycles":142,"heap":5667356,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":9.1,"cycles":161,"heap":5697552,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":10,"cycles":178,"heap":5720320,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":11.1,"cycles":196,"heap":5750928,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":12,"cycles":213,"heap":5752952,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":13.1,"cycles":231,"heap":5757284,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":14,"cycles":248,"heap":5763364,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":15.1,"cycles":266,"heap":5783952,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":16,"cycles":284,"heap":5792012,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":17,"cycles":301,"heap":5791280,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":18,"cycles":320,"heap":5797376,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":19,"cycles":337,"heap":5800904,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":20.1,"cycles":356,"heap":5805160,"listeners":189,"timers":0,"voices":0}
+{"elapsedMinutes":20.1,"cycles":356,"heap":5735256,"listeners":189,"timers":0,"voices":0}
+{
+  "status": "PASS",
+  "cycles": 356,
+  "elapsedMs": 1205566,
+  "trend": {
+    "firstHeap": 5183332,
+    "lastHeap": 5735256,
+    "growthBytes": 551924,
+    "firstListeners": 189,
+    "lastListeners": 189,
+    "firstTimers": 0,
+    "lastTimers": 0
+  }
+}

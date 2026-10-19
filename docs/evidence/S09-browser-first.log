@@ -1,0 +1,189 @@
+
+Running 9 tests using 1 worker
+
+(node:41972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [chromium] ??tests\accessibility\accessibility.spec.ts:8:1 ??keyboard alone repairs all eight orders and preserves question-first flow (15.2s)
+  x  2 [chromium] ??tests\accessibility\accessibility.spec.ts:16:1 ??axe home, workbench, question, settings; modal keyboard escape and return (8.2s)
+(node:36596) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 3 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 320x740 CSS zoom 1 (3.0s)
+  ok 4 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 390x844 CSS zoom 1 (2.6s)
+  ok 5 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 768x1024 CSS zoom 1 (2.5s)
+  ok 6 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 844x390 CSS zoom 1 (2.3s)
+  x  7 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 780x844 CSS zoom 2 (30.4s)
+(node:33688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  8 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 1280x960 CSS zoom 4 (30.4s)
+(node:24044) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 9 [chromium] ??tests\accessibility\accessibility.spec.ts:28:1 ??system reduced motion is initial preference; fixed-do display does not alter evidence (2.0s)
+
+
+  1) [chromium] ??tests\accessibility\accessibility.spec.ts:16:1 ??axe home, workbench, question, settings; modal keyboard escape and return 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      17 |   await page.goto('/');await expect(page.getByRole('button',{name:'?뚮━ ?놁씠 ?쒖옉',exact:true})).toBeVisible();await axe(page,'home');await page.getByRole('button',{name:'?뚮━ ?놁씠 ?쒖옉',exact:true}).click();await page.getByRole('button',{name:'?묒뾽? ?닿린',exact:true}).click();await page.getByTestId('note-slot-1').click();await axe(page,'workbench');
+      18 |   await expect(page.getByTestId('note-input-63')).toHaveAccessibleName(/E ?뚮옯 4/);await page.getByTestId('note-input-64').focus();await page.keyboard.press('Enter');await page.getByRole('button',{name:'?섎━ ?뺤씤',exact:true}).click();await axe(page,'question');
+    > 19 |   const trigger=page.getByRole('button',{name:'?ㅼ젙怨?湲곕줉',exact:true});await trigger.click();await axe(page,'settings');for(let i=0;i<20;i++){await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement?.closest('dialog'))).toBe(true);}await page.keyboard.press('Escape');await expect(trigger).toBeFocused();
+         |                                                                                                                                                                                                                                                          ^
+      20 | });
+      21 | for(const layout of [{width:320,height:740,zoom:1},{width:390,height:844,zoom:1},{width:768,height:1024,zoom:1},{width:844,height:390,zoom:1},{width:780,height:844,zoom:2},{width:1280,height:960,zoom:4}]){
+      22 |   test(`reflow ${layout.width}x${layout.height} CSS zoom ${layout.zoom}`,async({page})=>{
+        at C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\chord-repair-shop\tests\accessibility\accessibility.spec.ts:19:250
+
+    attachment #1: screenshot (image/png) ??????????????????????????????????????????????????????????
+    test-results\accessibility-accessibilit-cc8ad--keyboard-escape-and-return-chromium\test-failed-1.png
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+    Error Context: test-results\accessibility-accessibilit-cc8ad--keyboard-escape-and-return-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ?????????????????????????????????????????????????????????
+    test-results\accessibility-accessibilit-cc8ad--keyboard-escape-and-return-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\accessibility-accessibilit-cc8ad--keyboard-escape-and-return-chromium\trace.zip
+
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+  2) [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 780x844 CSS zoom 2 ???????
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Browser logs:
+
+    <launching> C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\playwright-browsers\chromium_headless_shell-1248\chrome-headless-shell-win64\chrome-headless-shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\kimyo\AppData\Local\Temp\playwright_chromiumdev_profile-1M3ujf --remote-debugging-pipe --no-startup-window
+    <launched> pid=41904
+    [pid=41904][err] [1019/233412.493:INFO:CONSOLE:935] "[vite] connecting...", source: http://127.0.0.1:5486/@vite/client (935)
+    [pid=41904][err] [1019/233412.505:INFO:CONSOLE:1048] "[vite] connected.", source: http://127.0.0.1:5486/@vite/client (1048)
+    [pid=41904][err] [1019/233412.903:INFO:CONSOLE:15997] "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold", source: http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=13a0804f (15997)
+    [pid=41904][err] [1019/233415.430:INFO:CONSOLE:935] "[vite] connecting...", source: http://127.0.0.1:5486/@vite/client (935)
+    [pid=41904][err] [1019/233415.447:INFO:CONSOLE:1048] "[vite] connected.", source: http://127.0.0.1:5486/@vite/client (1048)
+    [pid=41904][err] [1019/233415.817:INFO:CONSOLE:15997] "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold", source: http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=13a0804f (15997)
+    [pid=41904][err] [1019/233417.974:INFO:CONSOLE:935] "[vite] connecting...", source: http://127.0.0.1:5486/@vite/client (935)
+    [pid=41904][err] [1019/233417.992:INFO:CONSOLE:1048] "[vite] connected.", source: http://127.0.0.1:5486/@vite/client (1048)
+    [pid=41904][err] [1019/233418.284:INFO:CONSOLE:15997] "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold", source: http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=13a0804f (15997)
+    [pid=41904][err] [1019/233420.411:INFO:CONSOLE:935] "[vite] connecting...", source: http://127.0.0.1:5486/@vite/client (935)
+    [pid=41904][err] [1019/233420.427:INFO:CONSOLE:1048] "[vite] connected.", source: http://127.0.0.1:5486/@vite/client (1048)
+    [pid=41904][err] [1019/233420.736:INFO:CONSOLE:15997] "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold", source: http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=13a0804f (15997)
+    [pid=41904][err] [1019/233422.726:INFO:CONSOLE:935] "[vite] connecting...", source: http://127.0.0.1:5486/@vite/client (935)
+    [pid=41904][err] [1019/233422.753:INFO:CONSOLE:1048] "[vite] connected.", source: http://127.0.0.1:5486/@vite/client (1048)
+    [pid=41904][err] [1019/233423.038:INFO:CONSOLE:15997] "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold", source: http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=13a0804f (15997)
+    [pid=41904] <gracefully close start>
+    Call log:
+      - waiting for getByRole('button', { name: '?ㅼ젙 ?リ린', exact: true })
+        - locator resolved to <button class="primary">?ㅼ젙 ?リ린</button>
+      - attempting click action
+        2 횞 waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - element is outside of the viewport
+        - retrying click action
+        - waiting 20ms
+        2 횞 waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - element is outside of the viewport
+        - retrying click action
+          - waiting 100ms
+        53 횞 waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - element is outside of the viewport
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      23 |     await page.setViewportSize(layout);await page.goto('/');await page.getByRole('button',{name:'?뚮━ ?놁씠 ?쒖옉',exact:true}).click();await page.getByRole('button',{name:'?묒뾽? ?닿린',exact:true}).click();await page.getByTestId('note-slot-1').click();await page.getByRole('button',{name:'????踰꾪듉',exact:true}).click();await page.evaluate(zoom=>document.documentElement.style.zoom=String(zoom),layout.zoom);
+      24 |     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);await page.getByTestId('note-input-64').click();await page.getByRole('button',{name:'?섎━ ?뺤씤',exact:true}).click();await expect(page.getByRole('heading',{name:'諛붾뚯? ?딆? ???뚯??'})).toBeVisible();
+    > 25 |     await page.getByRole('button',{name:'?ㅼ젙怨?湲곕줉',exact:true}).click();await page.getByRole('button',{name:'?ㅼ젙 ?リ린',exact:true}).click();await page.screenshot({path:`output/playwright/S09-${layout.width}-${layout.height}-zoom${layout.zoom}.png`,fullPage:true});
+         |                                                                                                                                ^
+      26 |   });
+      27 | }
+      28 | test('system reduced motion is initial preference; fixed-do display does not alter evidence',async({page})=>{
+        at C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\chord-repair-shop\tests\accessibility\accessibility.spec.ts:25:128
+
+    attachment #1: screenshot (image/png) ??????????????????????????????????????????????????????????
+    test-results\accessibility-accessibility-reflow-780x844-CSS-zoom-2-chromium\test-failed-1.png
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+    Error Context: test-results\accessibility-accessibility-reflow-780x844-CSS-zoom-2-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ?????????????????????????????????????????????????????????
+    test-results\accessibility-accessibility-reflow-780x844-CSS-zoom-2-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\accessibility-accessibility-reflow-780x844-CSS-zoom-2-chromium\trace.zip
+
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+  3) [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 1280x960 CSS zoom 4 ??????
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: '?ㅼ젙 ?リ린', exact: true })
+        - locator resolved to <button class="primary">?ㅼ젙 ?リ린</button>
+      - attempting click action
+        2 횞 waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - element is outside of the viewport
+        - retrying click action
+        - waiting 20ms
+        2 횞 waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - element is outside of the viewport
+        - retrying click action
+          - waiting 100ms
+        53 횞 waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - element is outside of the viewport
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      23 |     await page.setViewportSize(layout);await page.goto('/');await page.getByRole('button',{name:'?뚮━ ?놁씠 ?쒖옉',exact:true}).click();await page.getByRole('button',{name:'?묒뾽? ?닿린',exact:true}).click();await page.getByTestId('note-slot-1').click();await page.getByRole('button',{name:'????踰꾪듉',exact:true}).click();await page.evaluate(zoom=>document.documentElement.style.zoom=String(zoom),layout.zoom);
+      24 |     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);await page.getByTestId('note-input-64').click();await page.getByRole('button',{name:'?섎━ ?뺤씤',exact:true}).click();await expect(page.getByRole('heading',{name:'諛붾뚯? ?딆? ???뚯??'})).toBeVisible();
+    > 25 |     await page.getByRole('button',{name:'?ㅼ젙怨?湲곕줉',exact:true}).click();await page.getByRole('button',{name:'?ㅼ젙 ?リ린',exact:true}).click();await page.screenshot({path:`output/playwright/S09-${layout.width}-${layout.height}-zoom${layout.zoom}.png`,fullPage:true});
+         |                                                                                                                                ^
+      26 |   });
+      27 | }
+      28 | test('system reduced motion is initial preference; fixed-do display does not alter evidence',async({page})=>{
+        at C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\chord-repair-shop\tests\accessibility\accessibility.spec.ts:25:128
+
+    attachment #1: screenshot (image/png) ??????????????????????????????????????????????????????????
+    test-results\accessibility-accessibility-reflow-1280x960-CSS-zoom-4-chromium\test-failed-1.png
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+    Error Context: test-results\accessibility-accessibility-reflow-1280x960-CSS-zoom-4-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ?????????????????????????????????????????????????????????
+    test-results\accessibility-accessibility-reflow-1280x960-CSS-zoom-4-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\accessibility-accessibility-reflow-1280x960-CSS-zoom-4-chromium\trace.zip
+
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+  3 failed
+    [chromium] ??tests\accessibility\accessibility.spec.ts:16:1 ??axe home, workbench, question, settings; modal keyboard escape and return 
+    [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 780x844 CSS zoom 2 ????????
+    [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 1280x960 CSS zoom 4 ???????
+  6 passed (1.8m)

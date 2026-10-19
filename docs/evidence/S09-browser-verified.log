@@ -1,0 +1,16 @@
+
+Running 9 tests using 1 worker
+
+(node:21908) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [chromium] ??tests\accessibility\accessibility.spec.ts:8:1 ??keyboard alone repairs all eight orders and preserves question-first flow (13.8s)
+  ok 2 [chromium] ??tests\accessibility\accessibility.spec.ts:16:1 ??axe home, workbench, question, settings; modal keyboard escape and return (7.5s)
+  ok 3 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 320x740 CSS zoom 1 (2.5s)
+  ok 4 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 390x844 CSS zoom 1 (2.6s)
+  ok 5 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 768x1024 CSS zoom 1 (2.3s)
+  ok 6 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 844x390 CSS zoom 1 (2.5s)
+  ok 7 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 780x844 CSS zoom 2 (3.2s)
+  ok 8 [chromium] ??tests\accessibility\accessibility.spec.ts:22:3 ??reflow 1280x960 CSS zoom 4 (4.0s)
+  ok 9 [chromium] ??tests\accessibility\accessibility.spec.ts:28:1 ??system reduced motion is initial preference; fixed-do display does not alter evidence (2.0s)
+
+  9 passed (42.5s)

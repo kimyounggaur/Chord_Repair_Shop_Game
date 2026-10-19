@@ -1,0 +1,21 @@
+
+ RUN  v5.0.5 C:/Users/kimyo/Documents/Codex/2026-10-19/task-4/chord-repair-shop
+
+ ??tests/audio/engine.test.ts (0 test)
+
+??렞??렞??렞 Failed Suites 1 ??렞??렞??렞??
+ FAIL  tests/audio/engine.test.ts [ tests/audio/engine.test.ts ]
+Error: Cannot find module '../../src/audio/AudioService' imported from C:/Users/kimyo/Documents/Codex/2026-10-19/task-4/chord-repair-shop/tests/audio/engine.test.ts
+ ??tests/audio/engine.test.ts:2:1
+      1| import {describe,it,expect} from 'vitest';
+      2| import {AudioService} from '../../src/audio/AudioService';
+       | ^
+      3| import {REFERENCE_CONFIG,normalizedHarmonics} from '../../src/audio/ty??      4| import {envelopeValueAt} from '../../src/audio/envelope';
+
+??렞??렞??렞??렞??렞??렞??렞??렞??렞??렞??렞??렞[1/1]??
+
+ Test Files  1 failed (1)
+      Tests  no tests
+   Start at  22:41:48
+   Duration  1.10s (worker 99%, environment 1%)
+

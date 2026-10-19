@@ -1,0 +1,59 @@
+
+Running 10 tests using 1 worker
+
+(node:42268) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [firefox] › tests\accessibility\accessibility.spec.ts:16:1 › axe home, workbench, question, settings; modal keyboard escape and return (7.3s)
+  ok  2 [firefox] › tests\e2e\audio-engine.spec.ts:116:1 › @native-audio S05 actual offline reference matrix: six chords, 24 voices, two rates and volumes (1.0s)
+  ok  3 [firefox] › tests\e2e\audio-engine.spec.ts:139:1 › @native-audio S05 actual offline mute and zero master produce silence (804ms)
+  ok  4 [firefox] › tests\e2e\audio-engine.spec.ts:155:1 › @native-audio S05 actual offline MIDI 60 to 74 pitch and A4 reference partials (1.2s)
+  ok  5 [firefox] › tests\e2e\audio-engine.spec.ts:240:1 › @native-audio S11 actual offline pluck reed bell retain exact fundamental and headroom (1.4s)
+  ok  6 [firefox] › tests\e2e\ensemble-sandbox.spec.ts:10:1 › sandbox presets and edits never create attempts or change repair progress, including volume (2.7s)
+  ok  7 [firefox] › tests\e2e\recovery.spec.ts:5:1 › real IndexedDB retains first wrong, help, question permutation and explanation over reload (8.1s)
+(node:8372) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  8 [webkit] › tests\accessibility\accessibility.spec.ts:16:1 › axe home, workbench, question, settings; modal keyboard escape and return (14.5s)
+  ok  9 [webkit] › tests\e2e\ensemble-sandbox.spec.ts:10:1 › sandbox presets and edits never create attempts or change repair progress, including volume (3.8s)
+  x  10 [webkit] › tests\e2e\recovery.spec.ts:5:1 › real IndexedDB retains first wrong, help, question permutation and explanation over reload (12.5s)
+
+
+  1) [webkit] › tests\e2e\recovery.spec.ts:5:1 › real IndexedDB retains first wrong, help, question permutation and explanation over reload 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('heading', { name: '바뀌지 않은 두 음은?' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('heading', { name: '바뀌지 않은 두 음은?' }) with timeout 5000ms
+      - waiting for getByRole('heading', { name: '바뀌지 않은 두 음은?' })
+
+
+       7 |   await page.reload();await expect(page.getByTestId('repair-feedback')).toBeVisible();expect((await profile(page)).draft.state.evidence.firstSubmission.status).toBe('incorrect');
+       8 |   await page.getByRole('button',{name:'도움 2 · 거리',exact:true}).click();await saved(page);await page.reload();expect((await profile(page)).draft.state.evidence).toMatchObject({maxRepairHintLevel:2,answerRevealedBeforeFirstAnswer:true});
+    >  9 |   await page.getByTestId('note-slot-1').click();await page.getByRole('button',{name:'큰 음 버튼',exact:true}).click();await page.getByTestId('note-input-64').click();await page.getByRole('button',{name:'수리 확인',exact:true}).click();await saved(page);const options=await page.locator('.reflection-options>button').allTextContents();await page.reload();await expect(page.getByRole('heading',{name:'바뀌지 않은 두 음은?'})).toBeVisible();expect(await page.locator('.reflection-options>button').allTextContents()).toEqual(options);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                         ^
+      10 |   await page.getByRole('button',{name:'C와 G',exact:true}).click();await saved(page);await page.reload();await expect(page.getByTestId('relationship-explanation')).toBeVisible();const after=await profile(page);expect(after.draft.state.attemptId).toBe(first.draft.state.attemptId);expect(after.draft.state.evidence.firstSubmission.status).toBe('incorrect');expect(after.draft.state.evidence.firstReflectionAnswer.correct).toBe(true);
+      11 | });
+      12 | test('demo snapshot reload returns own notes and import cancel preserves progress',async({page})=>{
+        at C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\chord-repair-shop\tests\e2e\recovery.spec.ts:9:409
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\e2e-recovery-real-IndexedD-94b39-and-explanation-over-reload-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\e2e-recovery-real-IndexedD-94b39-and-explanation-over-reload-webkit\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\e2e-recovery-real-IndexedD-94b39-and-explanation-over-reload-webkit\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\e2e-recovery-real-IndexedD-94b39-and-explanation-over-reload-webkit\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [webkit] › tests\e2e\recovery.spec.ts:5:1 › real IndexedDB retains first wrong, help, question permutation and explanation over reload 
+  9 passed (57.9s)

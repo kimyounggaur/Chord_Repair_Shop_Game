@@ -1,0 +1,14 @@
+
+Running 7 tests using 1 worker
+
+(node:42988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [chromium] ??tests\e2e\eight-orders.spec.ts:6:1 ??all eight original orders: wrong submission, direct repair, question and reward (19.0s)
+  ok 2 [chromium] ??tests\e2e\eight-orders.spec.ts:22:1 ??hint distance tool, demonstration return and tutorial exposure use explicit actions (4.1s)
+  ok 3 [chromium] ??tests\e2e\recovery.spec.ts:5:1 ??real IndexedDB retains first wrong, help, question permutation and explanation over reload (6.8s)
+  ok 4 [chromium] ??tests\e2e\recovery.spec.ts:12:1 ??demo snapshot reload returns own notes and import cancel preserves progress (5.8s)
+  ok 5 [chromium] ??tests\e2e\recovery.spec.ts:17:1 ??second real tab is read only and explicit takeover works after owner release (4.6s)
+  ok 6 [chromium] ??tests\e2e\recovery.spec.ts:21:1 ??blocked IndexedDB keeps silent learning and export available (2.3s)
+  ok 7 [chromium] ??tests\e2e\recovery.spec.ts:24:1 ??corrupt draft keeps raw data and offers valid backup recovery (2.7s)
+
+  7 passed (47.9s)

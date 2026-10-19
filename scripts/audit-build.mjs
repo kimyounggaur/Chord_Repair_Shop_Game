@@ -1,0 +1,11 @@
+import {readFileSync,readdirSync,writeFileSync} from 'node:fs';
+import {gzipSync} from 'node:zlib';
+import {createHash} from 'node:crypto';
+const walk=p=>readdirSync(p,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(`${p}/${e.name}`):[`${p}/${e.name}`]);
+const files=walk('dist').sort().map(path=>{const bytes=readFileSync(path);return {path,bytes:bytes.length,gzipBytes:gzipSync(bytes).length,sha256:createHash('sha256').update(bytes).digest('hex')};});
+const javascriptGzip=files.filter(f=>f.path.endsWith('.js')).reduce((s,f)=>s+f.gzipBytes,0);
+const staticAssets=files.filter(f=>/\.(webp|png|svg|woff2?)$/.test(f.path)).reduce((s,f)=>s+f.bytes,0);
+const report={createdAt:new Date().toISOString(),javascriptGzip,staticAssets,javascriptBudget:250000,staticAssetBudget:5000000,pass:javascriptGzip<=250000&&staticAssets<=5000000,artifactManifestSha256:createHash('sha256').update(JSON.stringify(files)).digest('hex'),scope:'Production bytes only. Does not measure constrained-network FCP, actual input-to-speaker latency, memory longevity or physical devices.',files};
+writeFileSync('docs/evidence/build-budget.json',JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify({...report,files:files.length},null,2));
+if(!report.pass)process.exit(1);

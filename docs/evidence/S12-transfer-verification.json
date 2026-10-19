@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "recordedAt": "2026-10-19T16:00:37.539Z",
+  "checked": 6,
+  "rows": [
+    {
+      "id": "transfer/A/minor-build",
+      "notes": [
+        "A3",
+        "C4",
+        "E4"
+      ],
+      "midi": [
+        57,
+        60,
+        64
+      ],
+      "intervals": [
+        0,
+        3,
+        7
+      ]
+    },
+    {
+      "id": "transfer/A/major-build",
+      "notes": [
+        "D4",
+        "F#4",
+        "A4"
+      ],
+      "midi": [
+        62,
+        66,
+        69
+      ],
+      "intervals": [
+        0,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "transfer/B/minor-build",
+      "notes": [
+        "D4",
+        "F4",
+        "A4"
+      ],
+      "midi": [
+        62,
+        65,
+        69
+      ],
+      "intervals": [
+        0,
+        3,
+        7
+      ]
+    },
+    {
+      "id": "transfer/B/major-build",
+      "notes": [
+        "A3",
+        "C#4",
+        "E4"
+      ],
+      "midi": [
+        57,
+        61,
+        64
+      ],
+      "intervals": [
+        0,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "transfer/A/layout",
+      "notes": [
+        "E4",
+        "G4",
+        "C5"
+      ],
+      "midi": [
+        64,
+        67,
+        72
+      ],
+      "pitchClasses": [
+        0,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "transfer/B/layout",
+      "notes": [
+        "A4",
+        "C5",
+        "F5"
+      ],
+      "midi": [
+        69,
+        72,
+        77
+      ],
+      "pitchClasses": [
+        0,
+        5,
+        9
+      ]
+    }
+  ],
+  "appImports": [],
+  "scope": "Independent literal arithmetic and fixture separation only. Human research, musical listening, A/B equivalence and learning effects NOT RUN."
+}

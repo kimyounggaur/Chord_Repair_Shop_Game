@@ -1,0 +1,154 @@
+{
+  "recordedAt": "2026-10-19T15:51:32.026Z",
+  "test": "@native-audio S05 actual offline mute and zero master produce silence",
+  "project": "firefox",
+  "node": "v24.14.0",
+  "platform": "win32",
+  "baseURL": "http://127.0.0.1:5486",
+  "verification": "Automated browser Web Audio only; no human listening, physical device, sound-pressure or speaker latency verification.",
+  "browserVersion": "157.0",
+  "results": [
+    {
+      "name": "zero-master",
+      "midis": [
+        60,
+        64,
+        67
+      ],
+      "sampleRate": 44100,
+      "volume": 0,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0,
+      "peakDbfs": null,
+      "rms": 0,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": null,
+      "expectedHz": null,
+      "harmonicRatios": null,
+      "endedVoices": 3,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "muted-master",
+      "midis": [
+        60,
+        63,
+        67
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "muted": true,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0,
+      "peakDbfs": null,
+      "rms": 0,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": null,
+      "expectedHz": null,
+      "harmonicRatios": null,
+      "endedVoices": 3,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "zero-master",
+      "midis": [
+        60,
+        64,
+        67
+      ],
+      "sampleRate": 48000,
+      "volume": 0,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0,
+      "peakDbfs": null,
+      "rms": 0,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": null,
+      "expectedHz": null,
+      "harmonicRatios": null,
+      "endedVoices": 3,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "muted-master",
+      "midis": [
+        60,
+        63,
+        67
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "muted": true,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0,
+      "peakDbfs": null,
+      "rms": 0,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": null,
+      "expectedHz": null,
+      "harmonicRatios": null,
+      "endedVoices": 3,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    }
+  ]
+}

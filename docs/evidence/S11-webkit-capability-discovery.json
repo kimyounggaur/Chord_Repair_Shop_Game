@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-19",
+  "platform": "Windows 10.0.26200",
+  "browser": "Playwright WebKit 27.2 build2370",
+  "AudioContext": "undefined",
+  "OfflineAudioContext": "undefined",
+  "webkitAudioContext": "undefined",
+  "webkitOfflineAudioContext": "undefined",
+  "indexedDB": "object",
+  "nativeAudioStatus": "NOT RUN — API absent in this binary; not a Safari/iOS result",
+  "firstCrossBrowserRun": "Interrupted deliberately after 122 completed cases and repeated missing API failures; preserved S11-cross-browser-first.log"
+}

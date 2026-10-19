@@ -1,0 +1,42 @@
+{
+  "name": "chord-repair-shop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.14.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5486 --strictPort",
+    "preview": "vite preview --host 127.0.0.1 --port 4486 --strictPort",
+    "verify:reference": "node scripts/verify-reference.mjs docs/design.md src/content/orders.v1.json",
+    "typecheck": "tsc --noEmit",
+    "lint": "node scripts/lint.mjs",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/integration",
+    "test:audio": "vitest run tests/audio",
+    "test:content": "vitest run tests/unit/content.test.ts",
+    "test:e2e": "playwright test tests/e2e",
+    "test:a11y": "playwright test tests/accessibility",
+    "build": "npm run verify:reference && npm run test:content && npm run typecheck && vite build && node scripts/build-release.mjs",
+    "check": "npm run lint && npm run verify:reference && npm run typecheck && vitest run && vite build && node scripts/build-release.mjs",
+    "preview:qa": "node scripts/production-preview.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.8",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "fake-indexeddb": "6.2.6",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.5"
+  }
+}

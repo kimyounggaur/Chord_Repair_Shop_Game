@@ -1,0 +1,10 @@
+{
+  "browser": "157.0",
+  "host": "win32",
+  "capabilities": {
+    "audio": "function",
+    "offline": "function",
+    "indexedDB": "object"
+  },
+  "nativeAudio": "Available; see separate native tests"
+}

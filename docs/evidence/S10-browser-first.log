@@ -1,0 +1,159 @@
+
+Running 3 tests using 1 worker
+
+(node:31440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [chromium] ??tests\e2e\ensemble-sandbox.spec.ts:5:1 ??assisted eight completions unlock native ensemble, solo/mute/stop and hidden cleanup (8.0s)
+(node:38324) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 2 [chromium] ??tests\e2e\ensemble-sandbox.spec.ts:10:1 ??sandbox presets and edits never create attempts or change repair progress, including volume (1.5s)
+  x  3 [chromium] ??tests\e2e\ensemble-sandbox.spec.ts:13:1 ??provided artwork loads on mobile without overflow or question leakage (2.2s)
+
+
+  1) [chromium] ??tests\e2e\ensemble-sandbox.spec.ts:5:1 ??assisted eight completions unlock native ensemble, solo/mute/stop and hidden cleanup 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 40
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+    +     "help": "Elements must have their visible text as part of their accessible name",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+    +     "id": "label-content-name-mismatch",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": null,
+    +             "id": "label-content-name-mismatch",
+    +             "impact": "serious",
+    +             "message": "Text inside the element is not included in the accessible name",
+    +             "relatedNodes": Array [],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Text inside the element is not included in the accessible name",
+    +         "html": "<button class=\"brand\" aria-label=\"?붿쓬 ?섎━???쒖옉 ?붾㈃\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".brand",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.semantics",
+    +       "wcag21a",
+    +       "wcag253",
+    +       "EN-301-549",
+    +       "EN-9.2.5.3",
+    +       "RGAAv4",
+    +       "RGAA-6.1.5",
+    +     ],
+    +   },
+    + ]
+
+       6 |   test.setTimeout(90000);await page.routeWebSocket('**/*',socket=>socket.close());await completeCourse(page);await page.getByRole('button',{name:'吏꾩뿴怨??⑹＜',exact:true}).click();await expect(page.getByRole('heading',{name:'?곕━媛 怨좎튇 ?뚮━'})).toBeVisible();await expect(page.getByRole('button',{name:'?⑹＜ ?ｊ린',exact:true})).toBeDisabled();await page.getByRole('button',{name:'?⑹＜ ?뚮━ 耳쒓린',exact:true}).click();await page.getByRole('button',{name:'?⑹＜ ?ｊ린',exact:true}).click();await expect(page.getByTestId('ensemble-state')).toContainText('?ъ깮 以?);await expect.poll(async()=>(await runtime(page)).audio.scheduledEvents).toBeGreaterThan(0);await page.getByRole('button',{name:'?⑹＜ ?뺤?',exact:true}).click();await expect.poll(async()=>(await runtime(page)).audio.musicalVoices).toBe(0);
+       7 |   await page.getByRole('button',{name:'洹쇱쓬留??ｊ린',exact:true}).click();await page.getByRole('button',{name:'洹쇱쓬 ?뚯냼嫄?,exact:true}).click();const before=(await runtime(page)).audio.scheduledEvents;await page.getByRole('button',{name:'?⑹＜ ?ｊ린',exact:true}).click();expect((await runtime(page)).audio.scheduledEvents).toBe(before);await page.getByRole('button',{name:'洹쇱쓬 ?뚯냼嫄?,exact:true}).click();await page.getByRole('button',{name:'?⑹＜ ?ｊ린',exact:true}).click();await expect(page.getByTestId('ensemble-state')).toContainText('?ъ깮 以?);await page.evaluate(()=>window.dispatchEvent(new Event('pagehide')));await expect.poll(async()=>(await runtime(page)).audio.musicalVoices).toBe(0);expect((await runtime(page)).ensemble).toMatchObject({timerCount:0,visualTimerCount:0,playing:false});
+    >  8 |   await page.screenshot({path:'output/playwright/S10-shelf-desktop.png',fullPage:true});expect((await new AxeBuilder({page}).analyze()).violations).toEqual([]);
+         |                                                                                                                                                     ^
+       9 | });
+      10 | test('sandbox presets and edits never create attempts or change repair progress, including volume',async({page})=>{
+      11 |   await page.goto('/');const before=(await runtime(page)).profile;await page.getByRole('button',{name:'?먯쑀 ?ㅽ뿕',exact:true}).click();await expect(page.getByRole('heading',{name:'?먯쑀 ?ㅽ뿕',exact:true})).toBeVisible();await page.getByRole('button',{name:'G ???붿쓬',exact:true}).click();await page.getByRole('button',{name:'?ㅽ뿕 ????踰꾪듉',exact:true}).click();await page.getByTestId('sandbox-slot-0').click();await page.getByTestId('note-input-60').click();await page.getByRole('slider',{name:'?뚮웾',exact:true}).focus();await page.keyboard.press('ArrowRight');await page.getByRole('button',{name:'?섎━濡??뚯븘媛湲?,exact:false}).click();const after=(await runtime(page)).profile;expect(after.attempts).toEqual(before.attempts);expect(after.progress).toEqual(before.progress);await expect(page.getByRole('heading',{name:'?붿쓬 ?섎━??,exact:true})).toBeVisible();
+        at C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\chord-repair-shop\tests\e2e\ensemble-sandbox.spec.ts:8:149
+
+    attachment #1: screenshot (image/png) ??????????????????????????????????????????????????????????
+    test-results\e2e-ensemble-sandbox-assis-b063c-ute-stop-and-hidden-cleanup-chromium\test-failed-1.png
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+    Error Context: test-results\e2e-ensemble-sandbox-assis-b063c-ute-stop-and-hidden-cleanup-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ?????????????????????????????????????????????????????????
+    test-results\e2e-ensemble-sandbox-assis-b063c-ute-stop-and-hidden-cleanup-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\e2e-ensemble-sandbox-assis-b063c-ute-stop-and-hidden-cleanup-chromium\trace.zip
+
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+  2) [chromium] ??tests\e2e\ensemble-sandbox.spec.ts:13:1 ??provided artwork loads on mobile without overflow or question leakage 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 40
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+    +     "help": "Elements must have their visible text as part of their accessible name",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+    +     "id": "label-content-name-mismatch",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": null,
+    +             "id": "label-content-name-mismatch",
+    +             "impact": "serious",
+    +             "message": "Text inside the element is not included in the accessible name",
+    +             "relatedNodes": Array [],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Text inside the element is not included in the accessible name",
+    +         "html": "<button class=\"brand\" aria-label=\"?붿쓬 ?섎━???쒖옉 ?붾㈃\">",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".brand",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.semantics",
+    +       "wcag21a",
+    +       "wcag253",
+    +       "EN-301-549",
+    +       "EN-9.2.5.3",
+    +       "RGAAv4",
+    +       "RGAA-6.1.5",
+    +     ],
+    +   },
+    + ]
+
+      12 | });
+      13 | test('provided artwork loads on mobile without overflow or question leakage',async({page})=>{
+    > 14 |   await page.setViewportSize({width:390,height:844});await page.goto('/');await expect(page.locator('.workshop-picture img')).toBeVisible();await page.getByRole('button',{name:'?뚮━ ?놁씠 ?쒖옉',exact:true}).click();await page.getByRole('button',{name:'?묒뾽? ?닿린',exact:true}).click();await expect(page.locator('.instrument-art img')).toHaveCount(2);await expect.poll(()=>page.locator('.instrument-art img').evaluateAll(images=>images.every(image=>(image as HTMLImageElement).complete&&(image as HTMLImageElement).naturalWidth>0))).toBe(true);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:'output/playwright/S10-workbench-mobile.png',fullPage:true});expect((await new AxeBuilder({page}).analyze()).violations).toEqual([]);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+      15 | });
+      16 |
+        at C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\chord-repair-shop\tests\e2e\ensemble-sandbox.spec.ts:14:775
+
+    attachment #1: screenshot (image/png) ??????????????????????????????????????????????????????????
+    test-results\e2e-ensemble-sandbox-provi-fc183-verflow-or-question-leakage-chromium\test-failed-1.png
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+    Error Context: test-results\e2e-ensemble-sandbox-provi-fc183-verflow-or-question-leakage-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ?????????????????????????????????????????????????????????
+    test-results\e2e-ensemble-sandbox-provi-fc183-verflow-or-question-leakage-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\e2e-ensemble-sandbox-provi-fc183-verflow-or-question-leakage-chromium\trace.zip
+
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+  2 failed
+    [chromium] ??tests\e2e\ensemble-sandbox.spec.ts:5:1 ??assisted eight completions unlock native ensemble, solo/mute/stop and hidden cleanup 
+    [chromium] ??tests\e2e\ensemble-sandbox.spec.ts:13:1 ??provided artwork loads on mobile without overflow or question leakage 
+  1 passed (14.6s)

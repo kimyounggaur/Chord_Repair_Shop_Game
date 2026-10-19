@@ -1,0 +1,1011 @@
+{
+  "recordedAt": "2026-10-19T15:49:26.237Z",
+  "test": "@native-audio S05 actual offline MIDI 60 to 74 pitch and A4 reference partials",
+  "project": "chromium",
+  "node": "v24.14.0",
+  "platform": "win32",
+  "baseURL": "http://127.0.0.1:5486",
+  "verification": "Automated browser Web Audio only; no human listening, physical device, sound-pressure or speaker latency verification.",
+  "browserVersion": "156.0.8078.4",
+  "method": "Interpolated positive zero crossings in 0.2–0.8s sustain; A4 partial correlation over 220 complete periods.",
+  "results": [
+    {
+      "name": "midi-60",
+      "midis": [
+        60
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.031960196793079376,
+      "peakDbfs": -29.907811104128808,
+      "rms": 0.00963876721054946,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 261.62559926587363,
+      "expectedHz": 261.6255653005986,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-61",
+      "midis": [
+        61
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.031314507126808167,
+      "peakDbfs": -30.085088389323413,
+      "rms": 0.009638636738952133,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 277.1826203669825,
+      "expectedHz": 277.1826309768721,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-62",
+      "midis": [
+        62
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.03143338859081268,
+      "peakDbfs": -30.052175970507378,
+      "rms": 0.009637781074549137,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 293.66477442024495,
+      "expectedHz": 293.6647679174076,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-63",
+      "midis": [
+        63
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.031552210450172424,
+      "peakDbfs": -30.01940420054604,
+      "rms": 0.009637463418525496,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 311.12696940129723,
+      "expectedHz": 311.1269837220809,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-64",
+      "midis": [
+        64
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.03167753294110298,
+      "peakDbfs": -29.984972975859293,
+      "rms": 0.009637798643834818,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 329.6275667018539,
+      "expectedHz": 329.6275569128699,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-65",
+      "midis": [
+        65
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.03178580105304718,
+      "peakDbfs": -29.955336783594923,
+      "rms": 0.009637981801200641,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 349.2282571342377,
+      "expectedHz": 349.2282314330039,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-66",
+      "midis": [
+        66
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.031882256269454956,
+      "peakDbfs": -29.92901903366123,
+      "rms": 0.009637977087916486,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 369.9944113752711,
+      "expectedHz": 369.9944227116344,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-67",
+      "midis": [
+        67
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.03197505325078964,
+      "peakDbfs": -29.903774471619577,
+      "rms": 0.00963836277416519,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 391.99542993136555,
+      "expectedHz": 391.99543598174927,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-68",
+      "midis": [
+        68
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.03155440837144852,
+      "peakDbfs": -30.01879916411717,
+      "rms": 0.00963811828490376,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 415.3047196357471,
+      "expectedHz": 415.3046975799451,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-69",
+      "midis": [
+        69
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.031686555594205856,
+      "peakDbfs": -29.98249934224646,
+      "rms": 0.009637742412206437,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 440.00002587753744,
+      "expectedHz": 440,
+      "harmonicRatios": [
+        1,
+        0.17999999344331882,
+        0.08000000656855377
+      ],
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-70",
+      "midis": [
+        70
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.031786803156137466,
+      "peakDbfs": -29.955062950016536,
+      "rms": 0.009637954543531509,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 466.16375160986297,
+      "expectedHz": 466.1637615180899,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-71",
+      "midis": [
+        71
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.03188443183898926,
+      "peakDbfs": -29.928426349379116,
+      "rms": 0.009637990477590558,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 493.883388189536,
+      "expectedHz": 493.8833012561241,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-72",
+      "midis": [
+        72
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.03198312968015671,
+      "peakDbfs": -29.901580820352134,
+      "rms": 0.009638217549298504,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 523.2511074287942,
+      "expectedHz": 523.2511306011972,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-73",
+      "midis": [
+        73
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.031677015125751495,
+      "peakDbfs": -29.985114960519695,
+      "rms": 0.009637945763321897,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 554.3652795769972,
+      "expectedHz": 554.3652619537442,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-74",
+      "midis": [
+        74
+      ],
+      "sampleRate": 44100,
+      "volume": 1,
+      "frames": 52920,
+      "finite": true,
+      "peak": 0.031817249953746796,
+      "peakDbfs": -29.946747204992864,
+      "rms": 0.009637930265959195,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 587.3294997005398,
+      "expectedHz": 587.3295358348151,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-60",
+      "midis": [
+        60
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.03023126907646656,
+      "peakDbfs": -30.390872424397365,
+      "rms": 0.009638250262322621,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 261.62557398176773,
+      "expectedHz": 261.6255653005986,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-61",
+      "midis": [
+        61
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.030317507684230804,
+      "peakDbfs": -30.366130073645966,
+      "rms": 0.00963818500895628,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 277.18261309598927,
+      "expectedHz": 277.1826309768721,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-62",
+      "midis": [
+        62
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.03040176071226597,
+      "peakDbfs": -30.342025271589325,
+      "rms": 0.009638271240255968,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 293.6647615091407,
+      "expectedHz": 293.6647679174076,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-63",
+      "midis": [
+        63
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.030474940314888954,
+      "peakDbfs": -30.32114272547283,
+      "rms": 0.00963860954680045,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 311.12695524906445,
+      "expectedHz": 311.1269837220809,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-64",
+      "midis": [
+        64
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.029960231855511665,
+      "peakDbfs": -30.469096601040416,
+      "rms": 0.009638336059293354,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 329.6275511014357,
+      "expectedHz": 329.6275569128699,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-65",
+      "midis": [
+        65
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.030058911070227623,
+      "peakDbfs": -30.440535128846,
+      "rms": 0.009637772069390853,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 349.2282298375339,
+      "expectedHz": 349.2282314330039,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-66",
+      "midis": [
+        66
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.030155230313539505,
+      "peakDbfs": -30.412747004270223,
+      "rms": 0.00963769293927538,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 369.9943981113343,
+      "expectedHz": 369.9944227116344,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-67",
+      "midis": [
+        67
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.030252467840909958,
+      "peakDbfs": -30.384783841074217,
+      "rms": 0.009637990201719524,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 391.9953874175047,
+      "expectedHz": 391.99543598174927,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-68",
+      "midis": [
+        68
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.03033297508955002,
+      "peakDbfs": -30.361699830971606,
+      "rms": 0.009638135835599092,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 415.30469179874825,
+      "expectedHz": 415.3046975799451,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-69",
+      "midis": [
+        69
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.030422702431678772,
+      "peakDbfs": -30.336044208660486,
+      "rms": 0.00963810792763124,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 439.9999911530956,
+      "expectedHz": 440,
+      "harmonicRatios": [
+        1,
+        0.18000014144618837,
+        0.07999998669440382
+      ],
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-70",
+      "midis": [
+        70
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.03050137870013714,
+      "peakDbfs": -30.313610591209095,
+      "rms": 0.00963831394612192,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 466.16377105610957,
+      "expectedHz": 466.1637615180899,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-71",
+      "midis": [
+        71
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.030163763090968132,
+      "peakDbfs": -30.410289577202484,
+      "rms": 0.009637976420035946,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 493.8832771143698,
+      "expectedHz": 493.8833012561241,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-72",
+      "midis": [
+        72
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.0302722305059433,
+      "peakDbfs": -30.379111567168767,
+      "rms": 0.009637878319939489,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 523.2511332003572,
+      "expectedHz": 523.2511306011972,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-73",
+      "midis": [
+        73
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.030354296788573265,
+      "peakDbfs": -30.35559647761593,
+      "rms": 0.009638084439907796,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 554.3652146262175,
+      "expectedHz": 554.3652619537442,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    },
+    {
+      "name": "midi-74",
+      "midis": [
+        74
+      ],
+      "sampleRate": 48000,
+      "volume": 1,
+      "frames": 57600,
+      "finite": true,
+      "peak": 0.030436847358942032,
+      "peakDbfs": -30.33200667372038,
+      "rms": 0.009638070521160322,
+      "leadingPeak": 0,
+      "tailPeak": 0,
+      "estimatedHz": 587.3295265265933,
+      "expectedHz": 587.3295358348151,
+      "harmonicRatios": null,
+      "endedVoices": 1,
+      "config": {
+        "version": 1,
+        "attack": 0.008,
+        "decay": 0.07,
+        "sustain": 0.55,
+        "release": 0.12,
+        "gate": 0.9,
+        "master": 0.35,
+        "harmonics": [
+          1,
+          0.18,
+          0.08
+        ]
+      }
+    }
+  ]
+}

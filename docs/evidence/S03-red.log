@@ -1,0 +1,25 @@
+
+ RUN  v5.0.5 C:/Users/kimyo/Documents/Codex/2026-10-19/task-4/chord-repair-shop
+
+ ❯ tests/unit/session.test.ts (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/session.test.ts [ tests/unit/session.test.ts ]
+Error: Cannot find module '../../src/domain/session/reducer' imported from C:/Users/kimyo/Documents/Codex/2026-10-19/task-4/chord-repair-shop/tests/unit/session.test.ts
+ ❯ tests/unit/session.test.ts:3:1
+      1| import { describe, expect, it } from 'vitest';
+      2| import { loadOrders } from '../../src/content/loader';
+      3| import { createSession, reduceSession } from '../../src/domain/session…
+       | ^
+      4| import { executeGradeCommand } from '../../src/domain/session/commands…
+      5| import { restoreSession, serializeSession } from '../../src/domain/ses…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  no tests
+   Start at  22:19:35
+   Duration  254ms (worker 97%, environment 3%)
+

@@ -1,0 +1,44 @@
+
+> chord-repair-shop@1.0.0 test:a11y
+> playwright test tests/accessibility
+
+[WebServer] (node:44228) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 27 tests using 1 worker
+
+(node:43108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [chromium] › tests\accessibility\accessibility.spec.ts:8:1 › keyboard alone repairs all eight orders and preserves question-first flow (6.8s)
+  ok  2 [chromium] › tests\accessibility\accessibility.spec.ts:16:1 › axe home, workbench, question, settings; modal keyboard escape and return (2.8s)
+  ok  3 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 320x740 CSS zoom 1 (1.0s)
+  ok  4 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 390x844 CSS zoom 1 (969ms)
+  ok  5 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 768x1024 CSS zoom 1 (997ms)
+  ok  6 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 844x390 CSS zoom 1 (962ms)
+  ok  7 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 780x844 CSS zoom 2 (1.3s)
+  ok  8 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 1280x960 CSS zoom 4 (1.6s)
+  ok  9 [chromium] › tests\accessibility\accessibility.spec.ts:28:1 › system reduced motion is initial preference; fixed-do display does not alter evidence (813ms)
+(node:32708) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 10 [firefox] › tests\accessibility\accessibility.spec.ts:8:1 › keyboard alone repairs all eight orders and preserves question-first flow (8.5s)
+  ok 11 [firefox] › tests\accessibility\accessibility.spec.ts:16:1 › axe home, workbench, question, settings; modal keyboard escape and return (3.9s)
+  ok 12 [firefox] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 320x740 CSS zoom 1 (1.1s)
+  ok 13 [firefox] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 390x844 CSS zoom 1 (1.1s)
+  ok 14 [firefox] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 768x1024 CSS zoom 1 (1.2s)
+  ok 15 [firefox] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 844x390 CSS zoom 1 (1.0s)
+  ok 16 [firefox] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 780x844 CSS zoom 2 (1.3s)
+  ok 17 [firefox] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 1280x960 CSS zoom 4 (1.5s)
+  ok 18 [firefox] › tests\accessibility\accessibility.spec.ts:28:1 › system reduced motion is initial preference; fixed-do display does not alter evidence (858ms)
+(node:36372) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 19 [webkit] › tests\accessibility\accessibility.spec.ts:8:1 › keyboard alone repairs all eight orders and preserves question-first flow (13.7s)
+  ok 20 [webkit] › tests\accessibility\accessibility.spec.ts:16:1 › axe home, workbench, question, settings; modal keyboard escape and return (5.5s)
+  ok 21 [webkit] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 320x740 CSS zoom 1 (2.1s)
+  ok 22 [webkit] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 390x844 CSS zoom 1 (2.2s)
+  ok 23 [webkit] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 768x1024 CSS zoom 1 (2.7s)
+  ok 24 [webkit] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 844x390 CSS zoom 1 (2.1s)
+  ok 25 [webkit] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 780x844 CSS zoom 2 (3.1s)
+  ok 26 [webkit] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 1280x960 CSS zoom 4 (5.0s)
+  ok 27 [webkit] › tests\accessibility\accessibility.spec.ts:28:1 › system reduced motion is initial preference; fixed-do display does not alter evidence (2.0s)
+
+  27 passed (1.4m)

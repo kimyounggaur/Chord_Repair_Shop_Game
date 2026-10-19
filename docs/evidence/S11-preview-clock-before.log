@@ -1,0 +1,39 @@
+
+ RUN  v5.0.5 C:/Users/kimyo/Documents/Codex/2026-10-19/task-4/chord-repair-shop
+
+ ??tests/audio/engine.test.ts (32 tests | 2 failed | 30 skipped) 14ms
+   ??S05 audio contracts (32)
+     횞 S11 admits a fresh preview after a 16ms audio-clock step without another async enable 10ms
+     횞 S11 late preview remains canceled and tells the user to retry without replaying a stale queue 3ms
+
+??렞??렞??렞??Failed Tests 2 ??렞??렞??렞??
+ FAIL  tests/audio/engine.test.ts > S05 audio contracts > S11 admits a fresh preview after a 16ms audio-clock step without another async enable
+AssertionError: expected +0 to be 1 // Object.is equality
+
+- Expected
++ Received
+
+- 1
++ 0
+
+ ??tests/audio/engine.test.ts:63:90
+     61|     const {engine,context}=setup();await engine.enable();const enable=??     62|     vi.spyOn(engine,'scheduleGroup').mockImplementation(events=>{conte??     63|     engine.previewNote(60);await flush();expect(engine.getDiagnostics(??       |                                                                                          ^
+     64|   });
+     65|   it('S11 late preview remains canceled and tells the user to retry wi??
+??렞??렞??렞??렞??렞??렞??렞??렞??렞??렞??렞??렞[1/2]??
+ FAIL  tests/audio/engine.test.ts > S05 audio contracts > S11 late preview remains canceled and tells the user to retry without replaying a stale queue
+AssertionError: expected '湲곌린 ?뚮웾????쾶 ?쒖옉??二쇱꽭??' to contain '?ㅼ떆 ?뚮윭'
+
+Expected: "?ㅼ떆 ?뚮윭"
+Received: "湲곌린 ?뚮웾????쾶 ?쒖옉??二쇱꽭??"
+
+ ??tests/audio/engine.test.ts:68:123
+
+
+??렞??렞??렞??렞??렞??렞??렞??렞??렞??렞??렞??렞[2/2]??
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 30 skipped (32)
+   Start at  00:35:20
+   Duration  323ms (transform 55%, import 28%, tests 11%, worker 6%)
+

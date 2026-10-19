@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "initial": {
+    "transfer": 181918,
+    "fcp": 2396,
+    "homeReadyAt": 877.2999999970198
+  },
+  "input": {
+    "paintP95": 40.399999998509884,
+    "scheduleP95": 2.1999999955296516
+  },
+  "offline": 8
+}

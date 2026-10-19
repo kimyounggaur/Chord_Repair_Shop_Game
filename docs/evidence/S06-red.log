@@ -1,0 +1,24 @@
+
+ RUN  v5.0.5 C:/Users/kimyo/Documents/Codex/2026-10-19/task-4/chord-repair-shop
+
+ ❯ tests/audio/transport.test.ts (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/audio/transport.test.ts [ tests/audio/transport.test.ts ]
+Error: Cannot find module '../../src/audio/comparison' imported from C:/Users/kimyo/Documents/Codex/2026-10-19/task-4/chord-repair-shop/tests/audio/transport.test.ts
+ ❯ tests/audio/transport.test.ts:2:1
+      1| import {describe,it,expect} from 'vitest';
+      2| import {comparisonPlan,arpeggioPlan,captureSnapshot} from '../../src/a…
+       | ^
+      3| const snapshot={orderId:'CR01',attemptId:'test',revision:1,original:[6…
+      4| describe('S06 plans',()=>{
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  no tests
+   Start at  22:51:56
+   Duration  361ms (worker 97%, environment 3%)
+

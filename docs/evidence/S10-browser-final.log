@@ -1,0 +1,197 @@
+
+Running 12 tests using 1 worker
+
+(node:31780) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [chromium] › tests\accessibility\accessibility.spec.ts:8:1 › keyboard alone repairs all eight orders and preserves question-first flow (15.8s)
+  x   2 [chromium] › tests\accessibility\accessibility.spec.ts:16:1 › axe home, workbench, question, settings; modal keyboard escape and return (4.2s)
+(node:40524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  3 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 320x740 CSS zoom 1 (2.2s)
+  ok  4 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 390x844 CSS zoom 1 (2.2s)
+  ok  5 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 768x1024 CSS zoom 1 (2.1s)
+  ok  6 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 844x390 CSS zoom 1 (2.1s)
+  ok  7 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 780x844 CSS zoom 2 (2.7s)
+  ok  8 [chromium] › tests\accessibility\accessibility.spec.ts:22:3 › reflow 1280x960 CSS zoom 4 (3.3s)
+  ok  9 [chromium] › tests\accessibility\accessibility.spec.ts:28:1 › system reduced motion is initial preference; fixed-do display does not alter evidence (1.7s)
+  ok 10 [chromium] › tests\e2e\ensemble-sandbox.spec.ts:5:1 › assisted eight completions unlock native ensemble, solo/mute/stop and hidden cleanup (12.0s)
+  ok 11 [chromium] › tests\e2e\ensemble-sandbox.spec.ts:10:1 › sandbox presets and edits never create attempts or change repair progress, including volume (1.9s)
+  ok 12 [chromium] › tests\e2e\ensemble-sandbox.spec.ts:13:1 › provided artwork loads on mobile without overflow or question leakage (2.7s)
+
+
+  1) [chromium] › tests\accessibility\accessibility.spec.ts:16:1 › axe home, workbench, question, settings; modal keyboard escape and return 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -   1
+    + Received  + 140
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+    +     "help": "Elements must have their visible text as part of their accessible name",
+    +     "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+    +     "id": "label-content-name-mismatch",
+    +     "impact": "serious",
+    +     "nodes": Array [
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": null,
+    +             "id": "label-content-name-mismatch",
+    +             "impact": "serious",
+    +             "message": "Text inside the element is not included in the accessible name",
+    +             "relatedNodes": Array [],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Text inside the element is not included in the accessible name",
+    +         "html": "<button type=\"button\" class=\"piano-key black \" data-midi=\"61\" data-testid=\"note-input-61\" tabindex=\"-1\" aria-label=\"D 플랫 4\" aria-pressed=\"false\" style=\"left: 38px;\"><span>D♭4</span><small aria-hidden=\"true\"></small></button>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "button[data-midi=\"61\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": null,
+    +             "id": "label-content-name-mismatch",
+    +             "impact": "serious",
+    +             "message": "Text inside the element is not included in the accessible name",
+    +             "relatedNodes": Array [],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Text inside the element is not included in the accessible name",
+    +         "html": "<button type=\"button\" class=\"piano-key black current\" data-midi=\"63\" data-testid=\"note-input-63\" tabindex=\"0\" aria-label=\"E 플랫 4, 현재 음\" aria-pressed=\"true\" style=\"left: 94px;\"><span>E♭4</span><small aria-hidden=\"true\">현재</small></button>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           ".current",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": null,
+    +             "id": "label-content-name-mismatch",
+    +             "impact": "serious",
+    +             "message": "Text inside the element is not included in the accessible name",
+    +             "relatedNodes": Array [],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Text inside the element is not included in the accessible name",
+    +         "html": "<button type=\"button\" class=\"piano-key black \" data-midi=\"66\" data-testid=\"note-input-66\" tabindex=\"-1\" aria-label=\"F 샵 4\" aria-pressed=\"false\" style=\"left: 206px;\"><span>F♯4</span><small aria-hidden=\"true\"></small></button>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "button[data-midi=\"66\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": null,
+    +             "id": "label-content-name-mismatch",
+    +             "impact": "serious",
+    +             "message": "Text inside the element is not included in the accessible name",
+    +             "relatedNodes": Array [],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Text inside the element is not included in the accessible name",
+    +         "html": "<button type=\"button\" class=\"piano-key black \" data-midi=\"68\" data-testid=\"note-input-68\" tabindex=\"-1\" aria-label=\"A 플랫 4\" aria-pressed=\"false\" style=\"left: 262px;\"><span>A♭4</span><small aria-hidden=\"true\"></small></button>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "button[data-midi=\"68\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": null,
+    +             "id": "label-content-name-mismatch",
+    +             "impact": "serious",
+    +             "message": "Text inside the element is not included in the accessible name",
+    +             "relatedNodes": Array [],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Text inside the element is not included in the accessible name",
+    +         "html": "<button type=\"button\" class=\"piano-key black \" data-midi=\"70\" data-testid=\"note-input-70\" tabindex=\"-1\" aria-label=\"B 플랫 4\" aria-pressed=\"false\" style=\"left: 318px;\"><span>B♭4</span><small aria-hidden=\"true\"></small></button>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "button[data-midi=\"70\"]",
+    +         ],
+    +       },
+    +       Object {
+    +         "all": Array [],
+    +         "any": Array [
+    +           Object {
+    +             "data": null,
+    +             "id": "label-content-name-mismatch",
+    +             "impact": "serious",
+    +             "message": "Text inside the element is not included in the accessible name",
+    +             "relatedNodes": Array [],
+    +           },
+    +         ],
+    +         "failureSummary": "Fix any of the following:
+    +   Text inside the element is not included in the accessible name",
+    +         "html": "<button type=\"button\" class=\"piano-key black \" data-midi=\"73\" data-testid=\"note-input-73\" tabindex=\"-1\" aria-label=\"D 플랫 5\" aria-pressed=\"false\" style=\"left: 430px;\"><span>D♭5</span><small aria-hidden=\"true\"></small></button>",
+    +         "impact": "serious",
+    +         "none": Array [],
+    +         "target": Array [
+    +           "button[data-midi=\"73\"]",
+    +         ],
+    +       },
+    +     ],
+    +     "tags": Array [
+    +       "cat.semantics",
+    +       "wcag21a",
+    +       "wcag253",
+    +       "EN-301-549",
+    +       "EN-9.2.5.3",
+    +       "RGAAv4",
+    +       "RGAA-6.1.5",
+    +     ],
+    +   },
+    + ]
+
+       5 | const orders=JSON.parse(readFileSync('src/content/orders.v1.json','utf8')) as Order[];
+       6 | async function keyActivate(page:Page,target:Locator){for(let i=0;i<150;i++){if(await target.evaluate(element=>element===document.activeElement)){await page.keyboard.press('Enter');return;}await page.keyboard.press('Tab');}throw Error('Target unreachable by keyboard');}
+    >  7 | async function axe(page:Page,name:string){const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22a','wcag22aa']).analyze();writeFileSync(`docs/evidence/S09-axe-${name}.json`,JSON.stringify(result.violations,null,2));expect(result.violations).toEqual([]);}
+         |                                                                                                                                                                                                                                                                                               ^
+       8 | test('keyboard alone repairs all eight orders and preserves question-first flow',async({page})=>{
+       9 |   test.setTimeout(120000);await page.goto('/');await keyActivate(page,page.getByRole('button',{name:'소리 없이 시작',exact:true}));
+      10 |   for(const [index,order] of orders.entries()){
+        at axe (C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\chord-repair-shop\tests\accessibility\accessibility.spec.ts:7:287)
+        at C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\chord-repair-shop\tests\accessibility\accessibility.spec.ts:17:309
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\accessibility-accessibilit-cc8ad--keyboard-escape-and-return-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\accessibility-accessibilit-cc8ad--keyboard-escape-and-return-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\accessibility-accessibilit-cc8ad--keyboard-escape-and-return-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\accessibility-accessibilit-cc8ad--keyboard-escape-and-return-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests\accessibility\accessibility.spec.ts:16:1 › axe home, workbench, question, settings; modal keyboard escape and return 
+  11 passed (57.7s)

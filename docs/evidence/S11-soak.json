@@ -1,0 +1,466 @@
+{
+  "startedAt": "2026-10-19T15:39:49.836Z",
+  "durationRequestedMs": 1200000,
+  "baseURL": "http://127.0.0.1:4486",
+  "artifact": "16b9bafb1fc3af0507083ca6dcfb471f946ba21074febd4cce043c825e1b5954",
+  "samples": [
+    {
+      "elapsedMs": 0,
+      "heapBytes": 4145972,
+      "documents": 1,
+      "nodes": 162,
+      "jsEventListeners": 212,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 0,
+        "scheduledVoices": 0,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 61658,
+      "heapBytes": 5183332,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 432,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 123721,
+      "heapBytes": 5446784,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 864,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 182688,
+      "heapBytes": 5570764,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 1287,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 241484,
+      "heapBytes": 5573120,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 1697,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 302565,
+      "heapBytes": 5608404,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 2142,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 361733,
+      "heapBytes": 5648352,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 2552,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 421170,
+      "heapBytes": 5664544,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 2975,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 480880,
+      "heapBytes": 5667356,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 3385,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 545822,
+      "heapBytes": 5697552,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 3839,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 602706,
+      "heapBytes": 5720320,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 4240,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 664716,
+      "heapBytes": 5750928,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 4672,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 721208,
+      "heapBytes": 5752952,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 5074,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 783386,
+      "heapBytes": 5757284,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 5508,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 841160,
+      "heapBytes": 5763364,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 5911,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 903255,
+      "heapBytes": 5783952,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 6343,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 961949,
+      "heapBytes": 5792012,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 6766,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 1021324,
+      "heapBytes": 5791280,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 7176,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 1082315,
+      "heapBytes": 5797376,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 7621,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 1140854,
+      "heapBytes": 5800904,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 8031,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 1205016,
+      "heapBytes": 5805160,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 8485,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    },
+    {
+      "elapsedMs": 1205550,
+      "heapBytes": 5735256,
+      "documents": 1,
+      "nodes": 154,
+      "jsEventListeners": 189,
+      "probe": {
+        "contexts": 1,
+        "states": [
+          "running"
+        ],
+        "voices": 0,
+        "peakVoices": 7,
+        "scheduledVoices": 8485,
+        "oscillators": 0,
+        "timers": 0,
+        "intervals": 1,
+        "violations": []
+      }
+    }
+  ],
+  "cycles": 356,
+  "errors": [],
+  "method": "Real elapsed twenty minutes of production UI interaction. Native audio; test-only native-node/timer probes and CDP GC + DOM counters at each minute. No simulated clock. GC normalizes sampled heap, not application state. No human listening or physical device result.",
+  "browser": "156.0.8078.4",
+  "measuredStartedAt": "2026-10-19T15:39:54.739Z",
+  "elapsedMs": 1205566,
+  "status": "PASS",
+  "trend": {
+    "firstHeap": 5183332,
+    "lastHeap": 5735256,
+    "growthBytes": 551924,
+    "firstListeners": 189,
+    "lastListeners": 189,
+    "firstTimers": 0,
+    "lastTimers": 0
+  },
+  "indexHashAtEnd": "f393846ddcf02a6252680ff2d6a28afcdfa2353d8c755b1ec50162fe8b9c271e",
+  "endedAt": "2026-10-19T16:00:00.307Z"
+}

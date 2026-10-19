@@ -1,0 +1,17 @@
+
+Running 10 tests using 1 worker
+
+(node:40220) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [webkit] › tests\e2e\capabilities.spec.ts:3:1 › actual engine capability and unavailable-audio fallback are explicit (3.9s)
+  ok  2 [webkit] › tests\e2e\recovery.spec.ts:5:1 › real IndexedDB retains first wrong, help, question permutation and explanation over reload (9.3s)
+  ok  3 [webkit] › tests\e2e\recovery.spec.ts:12:1 › demo snapshot reload returns own notes and import cancel preserves progress (6.0s)
+  ok  4 [webkit] › tests\e2e\recovery.spec.ts:17:1 › second real tab is read only and explicit takeover works after owner release (6.0s)
+  ok  5 [webkit] › tests\e2e\recovery.spec.ts:21:1 › blocked IndexedDB keeps silent learning and export available (3.1s)
+  ok  6 [webkit] › tests\e2e\recovery.spec.ts:24:1 › corrupt draft keeps raw data and offers valid backup recovery (4.2s)
+  ok  7 [webkit] › tests\e2e\recovery.spec.ts:31:1 › confirmed import atomically replaces records, preserves a backup and remounts the restored screen (3.6s)
+  ok  8 [webkit] › tests\e2e\storage-failure-matrix.spec.ts:4:64 › real IndexedDB rejects future schemaVersion without deleting raw data (2.7s)
+  ok  9 [webkit] › tests\e2e\storage-failure-matrix.spec.ts:4:64 › real IndexedDB rejects future contentVersion without deleting raw data (2.9s)
+  ok 10 [webkit] › tests\e2e\storage-failure-matrix.spec.ts:10:1 › injected native IDB quota failure shows failure and keeps the draft exportable (4.6s)
+
+  10 passed (47.7s)

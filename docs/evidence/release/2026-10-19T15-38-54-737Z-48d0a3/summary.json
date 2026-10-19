@@ -1,0 +1,153 @@
+{
+  "createdAt": "2026-10-19T15:44:15.854Z",
+  "status": "FAIL",
+  "failure": "test:e2e failed or reported skipped/empty tests",
+  "releaseReadiness": "NOT_ASSESSED",
+  "commitBefore": null,
+  "commitAfter": null,
+  "sourceStable": true,
+  "sourceSha256": "8d753ea4536e51d3c7460705dfba3facdbc18e7d44743f36cecf0d7b0871e042",
+  "artifactManifestSha256": null,
+  "commands": [
+    {
+      "command": "npm ci",
+      "startedAt": "2026-10-19T15:38:54.802Z",
+      "endedAt": "2026-10-19T15:38:59.693Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "PASS",
+      "noTestsReported": false,
+      "skippedTestsReported": false,
+      "summaries": [],
+      "log": "docs/evidence/release/2026-10-19T15-38-54-737Z-48d0a3/01-clean-install.log"
+    },
+    {
+      "command": "npm run verify:reference",
+      "startedAt": "2026-10-19T15:38:59.693Z",
+      "endedAt": "2026-10-19T15:39:00.048Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "PASS",
+      "noTestsReported": false,
+      "skippedTestsReported": false,
+      "summaries": [],
+      "log": "docs/evidence/release/2026-10-19T15-38-54-737Z-48d0a3/02-verify-reference.log"
+    },
+    {
+      "command": "npm run test:content",
+      "startedAt": "2026-10-19T15:39:00.048Z",
+      "endedAt": "2026-10-19T15:39:01.244Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "PASS",
+      "noTestsReported": false,
+      "skippedTestsReported": false,
+      "summaries": [
+        " Test Files  1 passed (1)",
+        "      Tests  25 passed (25)"
+      ],
+      "log": "docs/evidence/release/2026-10-19T15-38-54-737Z-48d0a3/03-test-content.log"
+    },
+    {
+      "command": "npm run typecheck",
+      "startedAt": "2026-10-19T15:39:01.244Z",
+      "endedAt": "2026-10-19T15:39:02.483Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "PASS",
+      "noTestsReported": false,
+      "skippedTestsReported": false,
+      "summaries": [],
+      "log": "docs/evidence/release/2026-10-19T15-38-54-737Z-48d0a3/04-typecheck.log"
+    },
+    {
+      "command": "npm run lint",
+      "startedAt": "2026-10-19T15:39:02.483Z",
+      "endedAt": "2026-10-19T15:39:02.848Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "PASS",
+      "noTestsReported": false,
+      "skippedTestsReported": false,
+      "summaries": [],
+      "log": "docs/evidence/release/2026-10-19T15-38-54-737Z-48d0a3/05-lint.log"
+    },
+    {
+      "command": "npm run test:unit",
+      "startedAt": "2026-10-19T15:39:02.848Z",
+      "endedAt": "2026-10-19T15:39:03.917Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "PASS",
+      "noTestsReported": false,
+      "skippedTestsReported": false,
+      "summaries": [
+        " Test Files  5 passed (5)",
+        "      Tests  100 passed (100)"
+      ],
+      "log": "docs/evidence/release/2026-10-19T15-38-54-737Z-48d0a3/06-test-unit.log"
+    },
+    {
+      "command": "npm run test:integration",
+      "startedAt": "2026-10-19T15:39:03.917Z",
+      "endedAt": "2026-10-19T15:39:05.137Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "PASS",
+      "noTestsReported": false,
+      "skippedTestsReported": false,
+      "summaries": [
+        " Test Files  4 passed (4)",
+        "      Tests  31 passed (31)"
+      ],
+      "log": "docs/evidence/release/2026-10-19T15-38-54-737Z-48d0a3/07-test-integration.log"
+    },
+    {
+      "command": "npm run test:audio",
+      "startedAt": "2026-10-19T15:39:05.137Z",
+      "endedAt": "2026-10-19T15:39:06.352Z",
+      "exitCode": 0,
+      "signal": null,
+      "status": "PASS",
+      "noTestsReported": false,
+      "skippedTestsReported": false,
+      "summaries": [
+        " Test Files  3 passed (3)",
+        "      Tests  67 passed (67)"
+      ],
+      "log": "docs/evidence/release/2026-10-19T15-38-54-737Z-48d0a3/08-test-audio.log"
+    },
+    {
+      "command": "npm run test:e2e",
+      "startedAt": "2026-10-19T15:39:06.352Z",
+      "endedAt": "2026-10-19T15:44:15.731Z",
+      "exitCode": 1,
+      "signal": null,
+      "status": "FAIL",
+      "noTestsReported": false,
+      "skippedTestsReported": false,
+      "summaries": [
+        "  1 failed",
+        "  116 passed (5.1m)"
+      ],
+      "log": "docs/evidence/release/2026-10-19T15-38-54-737Z-48d0a3/09-test-e2e.log"
+    },
+    {
+      "command": "npm run test:a11y",
+      "status": "NOT RUN",
+      "reason": "Earlier check failed"
+    },
+    {
+      "command": "npm run build",
+      "status": "NOT RUN",
+      "reason": "Earlier check failed"
+    }
+  ],
+  "outstanding": [
+    "Production browser/offline tests and measured initial transfer",
+    "Firefox/WebKit/viewport/keyboard/AT evidence",
+    "20-minute leak and real device/listening/output-latency evidence",
+    "S12 observation gate and S13 release audit",
+    "Committed/pushed exact SHA, provider READY metadata, public URL/content/header checks and rollback limits"
+  ]
+}

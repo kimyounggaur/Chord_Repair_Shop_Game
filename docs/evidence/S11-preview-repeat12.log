@@ -1,0 +1,43 @@
+[WebServer] (node:45288) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 1 worker
+
+(node:13504) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (6.9s)
+(node:44400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  2 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (2.1s)
+(node:45992) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  3 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (2.2s)
+(node:43760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  4 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (2.2s)
+(node:44520) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  5 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (2.3s)
+(node:44600) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  6 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (2.4s)
+(node:43872) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  7 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (2.3s)
+(node:45992) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  8 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (2.3s)
+(node:44912) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  9 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (2.0s)
+(node:45616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 10 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (1.9s)
+(node:36104) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 11 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (1.9s)
+(node:41776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 12 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??@native-audio S06 pointer cancel and window blur release preview without committing the note (2.0s)
+
+  12 passed (54.3s)

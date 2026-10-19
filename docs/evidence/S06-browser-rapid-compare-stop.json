@@ -1,0 +1,307 @@
+{
+  "recordedAt": "2026-10-19T15:00:03.280Z",
+  "test": "S06 ten rapid comparison clicks retain one context and bounded voices then stop",
+  "browserVersion": "157.0",
+  "project": "firefox",
+  "node": "v24.14.0",
+  "verification": "Actual application UI with native browser AudioContext. Lifecycle events are synthetic automation. No physical listening, iOS/Android device, phone interruption, Bluetooth or acoustic latency result is implied.",
+  "observations": [
+    {
+      "label": "compare-1",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 4,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 6,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.4,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 4,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.08800000000000002,
+          "endAt": 2.7119999999999997
+        }
+      }
+    },
+    {
+      "label": "compare-2",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 5,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 9,
+        "contextCreations": 1,
+        "scheduledEvents": 12,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.552,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 5,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.061333333333333406,
+          "endAt": 2.8906666666666667
+        }
+      }
+    },
+    {
+      "label": "compare-3",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 6,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 9,
+        "contextCreations": 1,
+        "scheduledEvents": 18,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.64,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 6,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.040000000000000036,
+          "endAt": 3
+        }
+      }
+    },
+    {
+      "label": "compare-4",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 7,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 9,
+        "contextCreations": 1,
+        "scheduledEvents": 24,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.76,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 7,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.040000000000000036,
+          "endAt": 3.12
+        }
+      }
+    },
+    {
+      "label": "compare-5",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 8,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 9,
+        "contextCreations": 1,
+        "scheduledEvents": 30,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.872,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 8,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.040000000000000036,
+          "endAt": 3.2319999999999998
+        }
+      }
+    },
+    {
+      "label": "compare-6",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 9,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 9,
+        "contextCreations": 1,
+        "scheduledEvents": 36,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.992,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 9,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.05066666666666664,
+          "endAt": 3.341333333333333
+        }
+      }
+    },
+    {
+      "label": "compare-7",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 10,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 9,
+        "contextCreations": 1,
+        "scheduledEvents": 42,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 1.1306666666666667,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 10,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.058666666666666645,
+          "endAt": 3.472
+        }
+      }
+    },
+    {
+      "label": "compare-8",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 11,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 9,
+        "contextCreations": 1,
+        "scheduledEvents": 48,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 1.232,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 11,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.040000000000000036,
+          "endAt": 3.5919999999999996
+        }
+      }
+    },
+    {
+      "label": "compare-9",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 12,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 9,
+        "contextCreations": 1,
+        "scheduledEvents": 54,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 1.3306666666666667,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 12,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.029333333333333433,
+          "endAt": 3.7013333333333334
+        }
+      }
+    },
+    {
+      "label": "compare-10",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 13,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 9,
+        "contextCreations": 1,
+        "scheduledEvents": 60,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 1.432,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 13,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.040000000000000036,
+          "endAt": 3.792
+        }
+      }
+    },
+    {
+      "label": "stopped-through-old-completion",
+      "diagnostics": {
+        "phase": "ready",
+        "generation": 15,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 0,
+        "peakVoices": 9,
+        "contextCreations": 1,
+        "scheduledEvents": 60,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 4.32,
+        "contextState": "running",
+        "transport": {
+          "mode": null,
+          "activeGeneration": null,
+          "timerCount": 0,
+          "pending": false,
+          "elapsed": 0,
+          "endAt": null
+        }
+      }
+    }
+  ]
+}

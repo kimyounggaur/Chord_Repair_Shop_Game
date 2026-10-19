@@ -1,0 +1,57 @@
+
+Running 11 tests using 1 worker
+
+(node:36988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   1 [chromium] ??tests\e2e\eight-orders.spec.ts:6:1 ??all eight original orders: wrong submission, direct repair, question and reward (1.5m)
+(node:22748) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  2 [chromium] ??tests\e2e\eight-orders.spec.ts:22:1 ??hint distance tool, demonstration return and tutorial exposure use explicit actions (1.7s)
+  ok  3 [chromium] ??tests\e2e\workbench.spec.ts:13:1 ??silent CR01 wrong, repair, unrevealed question, and completion (1.6s)
+  ok  4 [chromium] ??tests\e2e\workbench.spec.ts:29:1 ??current focus, locked slots, same MIDI, undo, reset cancel and confirm (1.9s)
+  ok  5 [chromium] ??tests\e2e\workbench.spec.ts:51:1 ??piano and pads share input, roving keys, Enter Space and Escape (1.7s)
+  ok  6 [chromium] ??tests\e2e\workbench.spec.ts:71:1 ??canceled pointers, scroll and multitouch never commit a note (1.6s)
+  ok  7 [chromium] ??tests\e2e\workbench.spec.ts:88:1 ??native mobile touch release commits once after implicit capture release (1.6s)
+  ok  8 [chromium] ??tests\e2e\workbench.spec.ts:100:3 ??layout 320x740 (1.6s)
+  ok  9 [chromium] ??tests\e2e\workbench.spec.ts:100:3 ??layout 390x844 (1.7s)
+  ok 10 [chromium] ??tests\e2e\workbench.spec.ts:100:3 ??layout 844x390 (1.5s)
+  ok 11 [chromium] ??tests\e2e\workbench.spec.ts:115:1 ??200 percent layout and 56px piano keys remain usable (1.5s)
+
+
+  1) [chromium] ??tests\e2e\eight-orders.spec.ts:6:1 ??all eight original orders: wrong submission, direct repair, question and reward 
+
+    Test timeout of 90000ms exceeded.
+
+    Error: locator.click: Test timeout of 90000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: '?ㅼ쓬 二쇰Ц', exact: true })
+        - waiting for "http://127.0.0.1:5486/" navigation to finish...
+        - navigated to "http://127.0.0.1:5486/"
+
+
+      16 |     await expect(page.getByTestId('relationship-explanation')).toBeVisible();if(index===6)await expect(page.getByTestId('relationship-explanation')).toContainText('6諛섏쓬?먯꽌 7諛섏쓬');if(index===7)await expect(page.getByTestId('relationship-explanation')).toContainText('洹쇱쓬??E?먯꽌 F');
+      17 |     await page.getByRole('button',{name:'?섎━ 留덉튂湲?,exact:true}).click();await expect(page.getByRole('region',{name:'?대쾲 ?곗뒿 湲곕줉'})).toContainText('?ㅼ떆 ?댄렣遊?);
+    > 18 |     if(index<7)await page.getByRole('button',{name:'?ㅼ쓬 二쇰Ц',exact:true}).click();
+         |                                                                         ^
+      19 |   }
+      20 |   await page.getByRole('button',{name:'二쇰Ц 紐⑸줉?쇰줈',exact:true}).click();await expect(page.getByTestId('course-progress')).toContainText('?섎━ ?꾨즺 8 / 8');for(const order of orders)await expect(page.getByTestId(`order-${order.id}`)).toBeEnabled();
+      21 | });
+        at C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\chord-repair-shop\tests\e2e\eight-orders.spec.ts:18:73
+
+    attachment #1: screenshot (image/png) ??????????????????????????????????????????????????????????
+    test-results\e2e-eight-orders-all-eight-b5a6d--repair-question-and-reward-chromium\test-failed-1.png
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+    Error Context: test-results\e2e-eight-orders-all-eight-b5a6d--repair-question-and-reward-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ?????????????????????????????????????????????????????????
+    test-results\e2e-eight-orders-all-eight-b5a6d--repair-question-and-reward-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\e2e-eight-orders-all-eight-b5a6d--repair-question-and-reward-chromium\trace.zip
+
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+  1 failed
+    [chromium] ??tests\e2e\eight-orders.spec.ts:6:1 ??all eight original orders: wrong submission, direct repair, question and reward 
+  10 passed (1.8m)

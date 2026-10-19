@@ -1,0 +1,226 @@
+{
+  "recordedAt": "2026-10-19T15:51:40.791Z",
+  "test": "@native-audio S06 original current comparison and arpeggio buttons schedule native audio",
+  "browserVersion": "157.0",
+  "project": "firefox",
+  "node": "v24.14.0",
+  "verification": "Actual application UI with native browser AudioContext. Lifecycle events are synthetic automation. No physical listening, iOS/Android device, phone interruption, Bluetooth or acoustic latency result is implied.",
+  "observations": [
+    {
+      "label": "원래 화음 듣기",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 4,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 3,
+        "peakVoices": 3,
+        "contextCreations": 1,
+        "scheduledEvents": 3,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.48,
+        "contextState": "running",
+        "transport": {
+          "mode": "original",
+          "activeGeneration": 4,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.0693333333333333,
+          "endAt": 1.5106666666666668
+        }
+      }
+    },
+    {
+      "label": "원래 화음 듣기:stopped",
+      "diagnostics": {
+        "phase": "ready",
+        "generation": 5,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 0,
+        "peakVoices": 3,
+        "contextCreations": 1,
+        "scheduledEvents": 3,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.6213333333333333,
+        "contextState": "running",
+        "transport": {
+          "mode": null,
+          "activeGeneration": null,
+          "timerCount": 0,
+          "pending": false,
+          "elapsed": 0,
+          "endAt": null
+        }
+      }
+    },
+    {
+      "label": "현재 화음 듣기",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 6,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 3,
+        "peakVoices": 3,
+        "contextCreations": 1,
+        "scheduledEvents": 6,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.8506666666666667,
+        "contextState": "running",
+        "transport": {
+          "mode": "current",
+          "activeGeneration": 6,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.09866666666666668,
+          "endAt": 1.852
+        }
+      }
+    },
+    {
+      "label": "현재 화음 듣기:stopped",
+      "diagnostics": {
+        "phase": "ready",
+        "generation": 7,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 0,
+        "peakVoices": 3,
+        "contextCreations": 1,
+        "scheduledEvents": 6,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 1.08,
+        "contextState": "running",
+        "transport": {
+          "mode": null,
+          "activeGeneration": null,
+          "timerCount": 0,
+          "pending": false,
+          "elapsed": 0,
+          "endAt": null
+        }
+      }
+    },
+    {
+      "label": "전후 비교",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 8,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 12,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 1.232,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 8,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.03200000000000003,
+          "endAt": 3.5999999999999996
+        }
+      }
+    },
+    {
+      "label": "전후 비교:stopped",
+      "diagnostics": {
+        "phase": "ready",
+        "generation": 9,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 0,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 12,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 1.4,
+        "contextState": "running",
+        "transport": {
+          "mode": null,
+          "activeGeneration": null,
+          "timerCount": 0,
+          "pending": false,
+          "elapsed": 0,
+          "endAt": null
+        }
+      }
+    },
+    {
+      "label": "한 음씩",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 10,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 18,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 1.552,
+        "contextState": "running",
+        "transport": {
+          "mode": "arpeggio",
+          "activeGeneration": 10,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.05066666666666664,
+          "endAt": 3.9513333333333334
+        }
+      }
+    },
+    {
+      "label": "한 음씩:stopped",
+      "diagnostics": {
+        "phase": "ready",
+        "generation": 11,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 0,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 18,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 1.7306666666666666,
+        "contextState": "running",
+        "transport": {
+          "mode": null,
+          "activeGeneration": null,
+          "timerCount": 0,
+          "pending": false,
+          "elapsed": 0,
+          "endAt": null
+        }
+      }
+    }
+  ]
+}

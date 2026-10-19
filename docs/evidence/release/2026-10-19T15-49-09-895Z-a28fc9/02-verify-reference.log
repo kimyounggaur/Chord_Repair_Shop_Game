@@ -1,0 +1,15 @@
+
+> chord-repair-shop@1.0.0 verify:reference
+> node scripts/verify-reference.mjs docs/design.md src/content/orders.v1.json
+
+{
+  "status": "REFERENCE_DATA_PASS",
+  "orders": 8,
+  "ensembleEvents": 59,
+  "contentVersion": "1.0.0",
+  "bodySeconds": 24,
+  "transportEndSeconds": 24.4,
+  "designSha256": "65cfbfda1d8f0b1256df402ec833b7f8653daf9db31037270372c92314221681",
+  "extractedJsonSha256": "922645f1096ee902be1ffd4e391ad361799aeae1e410ab33cd55c3860a7f2057",
+  "scope": "Reference content/math only. Game implementation, device audio, accessibility, storage and learning outcomes NOT tested."
+}

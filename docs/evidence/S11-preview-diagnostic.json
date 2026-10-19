@@ -1,0 +1,698 @@
+[
+  {
+    "index": 0,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.392,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.6613333333333333,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.46066666666666667,
+        "now": 0.45066666666666666,
+        "generation": 5,
+        "result": true,
+        "after": 0.45066666666666666
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.5413333333333333,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.8106666666666666,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.602,
+        "now": 0.592,
+        "generation": 5,
+        "result": true,
+        "after": 0.592
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.68,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.992,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.77,
+        "now": 0.76,
+        "generation": 5,
+        "result": true,
+        "after": 0.76
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.6,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.88,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.6606666666666666,
+        "now": 0.6506666666666666,
+        "generation": 5,
+        "result": true,
+        "after": 0.6613333333333333
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.752,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 1.0506666666666666,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.8313333333333334,
+        "now": 0.8213333333333334,
+        "generation": 5,
+        "result": true,
+        "after": 0.8213333333333334
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.632,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.912,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.7006666666666667,
+        "now": 0.6906666666666667,
+        "generation": 5,
+        "result": true,
+        "after": 0.6906666666666667
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.6613333333333333,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.96,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.7406666666666667,
+        "now": 0.7306666666666667,
+        "generation": 5,
+        "result": true,
+        "after": 0.7306666666666667
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.6,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.9013333333333333,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.6713333333333333,
+        "now": 0.6613333333333333,
+        "generation": 5,
+        "result": true,
+        "after": 0.6613333333333333
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.5706666666666667,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.8613333333333333,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.642,
+        "now": 0.632,
+        "generation": 5,
+        "result": true,
+        "after": 0.632
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.52,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.8,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.5806666666666667,
+        "now": 0.5706666666666667,
+        "generation": 5,
+        "result": true,
+        "after": 0.5706666666666667
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.6213333333333333,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.92,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.7006666666666667,
+        "now": 0.6906666666666667,
+        "generation": 5,
+        "result": true,
+        "after": 0.6906666666666667
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "before": {
+      "phase": "ready",
+      "generation": 4,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 0,
+      "peakVoices": 0,
+      "contextCreations": 1,
+      "scheduledEvents": 0,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.592,
+      "contextState": "running"
+    },
+    "after": {
+      "phase": "playing",
+      "generation": 5,
+      "volume": 0.35,
+      "muted": false,
+      "musicalVoices": 1,
+      "peakVoices": 1,
+      "contextCreations": 1,
+      "scheduledEvents": 1,
+      "pendingRequests": 0,
+      "listenerBindings": 4,
+      "subscriptions": 4,
+      "fallback": false,
+      "currentTime": 0.8906666666666667,
+      "contextState": "running"
+    },
+    "calls": [
+      {
+        "kind": "stop",
+        "generation": 3,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at Object.stopAll (http://127.0.0.1:5486/src/audio/transport.ts:24:14)\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:21:12\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:24:3\n    at http://127.0.0.1:5486/src/ui/NoteInput.tsx:33:4\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:14374:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at commitHookEffectListUnmount (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7118:149)\n    at commitHookPassiveUnmountEffects (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:7131:55)\n    at disconnectPassiveEffect (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:8744:6)"
+      },
+      {
+        "kind": "scroll"
+      },
+      {
+        "kind": "stop",
+        "generation": 4,
+        "stack": "Error\n    at a.stopAll (eval at evaluate (:370:30), <anonymous>:5:92)\n    at AudioService.beginRequest (http://127.0.0.1:5486/src/audio/AudioService.ts:196:8)\n    at Object.previewNote (http://127.0.0.1:5486/src/audio/AudioService.ts:200:27)\n    at down (http://127.0.0.1:5486/src/ui/NoteInput.tsx:82:30)\n    at onPointerDown (http://127.0.0.1:5486/src/ui/NoteInput.tsx:100:30)\n    at executeDispatch (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10098:5)\n    at runWithFiberInDEV (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:1136:66)\n    at processDispatchQueue (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10124:27)\n    at http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:10393:5\n    at batchedUpdates$1 (http://127.0.0.1:5486/node_modules/.vite/deps/react-dom_client.js?v=7f799d34:2337:12)"
+      },
+      {
+        "kind": "schedule",
+        "at": 0.6713333333333333,
+        "now": 0.6613333333333333,
+        "generation": 5,
+        "result": true,
+        "after": 0.6613333333333333
+      }
+    ]
+  }
+]

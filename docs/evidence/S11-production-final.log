@@ -1,0 +1,13 @@
+{
+  "status": "FAIL",
+  "error": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 50\nReceived: 47\n    at captureRawStack (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-4\\chord-repair-shop\\node_modules\\playwright-core\\lib\\coreBundle.js:9282:17)\n    at callMatcherAsStep (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-4\\chord-repair-shop\\node_modules\\playwright\\lib\\matchers\\expect.js:13316:57)\n    at Object.toBe (C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-4\\chord-repair-shop\\node_modules\\playwright\\lib\\matchers\\expect.js:13308:23)\n    at C:\\Users\\kimyo\\Documents\\Codex\\2026-10-19\\task-4\\chord-repair-shop\\scripts\\production-qa.mjs:30:304",
+  "initial": {
+    "transfer": 181875,
+    "fcp": 1264,
+    "homeReadyAt": 1536.2000000029802
+  },
+  "input": {
+    "paintP95": 208.60000000149012,
+    "scheduleP95": 31.80000000447035
+  }
+}

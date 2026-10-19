@@ -1,0 +1,13 @@
+
+> chord-repair-shop@1.0.0 test:content
+> vitest run tests/unit/content.test.ts
+
+
+ RUN  v5.0.5 C:/Users/kimyo/Documents/Codex/2026-10-19/task-4/chord-repair-shop
+
+
+ Test Files  1 passed (1)
+      Tests  25 passed (25)
+   Start at  00:49:15
+   Duration  283ms (transform 67%, import 19%, tests 12%, worker 2%)
+

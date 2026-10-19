@@ -1,0 +1,542 @@
+[
+  {
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "id": "CR01",
+    "title": "처음 맡긴 오르골",
+    "root": "C4",
+    "quality": "major",
+    "initial": [
+      "C4",
+      "Eb4",
+      "G4"
+    ],
+    "target": [
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "initialMidi": [
+      60,
+      63,
+      67
+    ],
+    "targetMidi": [
+      60,
+      64,
+      67
+    ],
+    "editableSlots": [
+      1
+    ],
+    "allowedMidi": [
+      60,
+      74
+    ],
+    "registerMode": "exact",
+    "spellingRequired": false,
+    "inversion": 0,
+    "primaryConcept": "major-third",
+    "hintPolicy": "guided",
+    "reflection": {
+      "prompt": "바뀌지 않은 두 음은?",
+      "options": [
+        "C와 G",
+        "C와 E",
+        "E와 G"
+      ],
+      "answerIndex": 0
+    },
+    "displaySpellingMap": {
+      "60": "C4",
+      "61": "Db4",
+      "62": "D4",
+      "63": "Eb4",
+      "64": "E4",
+      "65": "F4",
+      "66": "F#4",
+      "67": "G4",
+      "68": "Ab4",
+      "69": "A4",
+      "70": "Bb4",
+      "71": "B4",
+      "72": "C5",
+      "73": "Db5",
+      "74": "D5"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "id": "CR02",
+    "title": "반대로 고치기",
+    "root": "C4",
+    "quality": "minor",
+    "initial": [
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "target": [
+      "C4",
+      "Eb4",
+      "G4"
+    ],
+    "initialMidi": [
+      60,
+      64,
+      67
+    ],
+    "targetMidi": [
+      60,
+      63,
+      67
+    ],
+    "editableSlots": [
+      1
+    ],
+    "allowedMidi": [
+      60,
+      74
+    ],
+    "registerMode": "exact",
+    "spellingRequired": false,
+    "inversion": 0,
+    "primaryConcept": "minor-third",
+    "hintPolicy": "guided",
+    "reflection": {
+      "prompt": "C에서 Eb까지는 몇 반음?",
+      "options": [
+        "3",
+        "4",
+        "7"
+      ],
+      "answerIndex": 0
+    },
+    "displaySpellingMap": {
+      "60": "C4",
+      "61": "Db4",
+      "62": "D4",
+      "63": "Eb4",
+      "64": "E4",
+      "65": "F4",
+      "66": "F#4",
+      "67": "G4",
+      "68": "Ab4",
+      "69": "A4",
+      "70": "Bb4",
+      "71": "B4",
+      "72": "C5",
+      "73": "Db5",
+      "74": "D5"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "id": "CR03",
+    "title": "다른 근음에서도 같은 관계",
+    "root": "F4",
+    "quality": "major",
+    "initial": [
+      "F4",
+      "Ab4",
+      "C5"
+    ],
+    "target": [
+      "F4",
+      "A4",
+      "C5"
+    ],
+    "initialMidi": [
+      65,
+      68,
+      72
+    ],
+    "targetMidi": [
+      65,
+      69,
+      72
+    ],
+    "editableSlots": [
+      0,
+      1,
+      2
+    ],
+    "allowedMidi": [
+      60,
+      74
+    ],
+    "registerMode": "exact",
+    "spellingRequired": false,
+    "inversion": 0,
+    "primaryConcept": "major-third",
+    "hintPolicy": "optional",
+    "reflection": {
+      "prompt": "장3화음을 만들 때 유지되는 관계는?",
+      "options": [
+        "근음에서 3음 4반음",
+        "항상 E를 넣기",
+        "검은건반을 쓰지 않기"
+      ],
+      "answerIndex": 0
+    },
+    "displaySpellingMap": {
+      "60": "C4",
+      "61": "Db4",
+      "62": "D4",
+      "63": "Eb4",
+      "64": "E4",
+      "65": "F4",
+      "66": "F#4",
+      "67": "G4",
+      "68": "Ab4",
+      "69": "A4",
+      "70": "Bb4",
+      "71": "B4",
+      "72": "C5",
+      "73": "Db5",
+      "74": "D5"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "id": "CR04",
+    "title": "검은건반과 음이름",
+    "root": "G4",
+    "quality": "minor",
+    "initial": [
+      "G4",
+      "B4",
+      "D5"
+    ],
+    "target": [
+      "G4",
+      "Bb4",
+      "D5"
+    ],
+    "initialMidi": [
+      67,
+      71,
+      74
+    ],
+    "targetMidi": [
+      67,
+      70,
+      74
+    ],
+    "editableSlots": [
+      0,
+      1,
+      2
+    ],
+    "allowedMidi": [
+      60,
+      74
+    ],
+    "registerMode": "exact",
+    "spellingRequired": false,
+    "inversion": 0,
+    "primaryConcept": "minor-third",
+    "hintPolicy": "optional",
+    "reflection": {
+      "prompt": "이번 화음의 3음은?",
+      "options": [
+        "G",
+        "Bb",
+        "D"
+      ],
+      "answerIndex": 1
+    },
+    "displaySpellingMap": {
+      "60": "C4",
+      "61": "Db4",
+      "62": "D4",
+      "63": "Eb4",
+      "64": "E4",
+      "65": "F4",
+      "66": "F#4",
+      "67": "G4",
+      "68": "Ab4",
+      "69": "A4",
+      "70": "Bb4",
+      "71": "B4",
+      "72": "C5",
+      "73": "Db5",
+      "74": "D5"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "id": "CR05",
+    "title": "도움 없는 장3화음 확인",
+    "root": "G4",
+    "quality": "major",
+    "initial": [
+      "G4",
+      "Bb4",
+      "D5"
+    ],
+    "target": [
+      "G4",
+      "B4",
+      "D5"
+    ],
+    "initialMidi": [
+      67,
+      70,
+      74
+    ],
+    "targetMidi": [
+      67,
+      71,
+      74
+    ],
+    "editableSlots": [
+      0,
+      1,
+      2
+    ],
+    "allowedMidi": [
+      60,
+      74
+    ],
+    "registerMode": "exact",
+    "spellingRequired": false,
+    "inversion": 0,
+    "primaryConcept": "major-third",
+    "hintPolicy": "optional",
+    "reflection": {
+      "prompt": "G 단3화음과 비교해 무엇이 달라졌나요?",
+      "options": [
+        "3음이 반음 높아짐",
+        "근음이 바뀜",
+        "5음이 반음 낮아짐"
+      ],
+      "answerIndex": 0
+    },
+    "displaySpellingMap": {
+      "60": "C4",
+      "61": "Db4",
+      "62": "D4",
+      "63": "Eb4",
+      "64": "E4",
+      "65": "F4",
+      "66": "F#4",
+      "67": "G4",
+      "68": "Ab4",
+      "69": "A4",
+      "70": "Bb4",
+      "71": "B4",
+      "72": "C5",
+      "73": "Db5",
+      "74": "D5"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "id": "CR06",
+    "title": "도움 없는 단3화음 확인",
+    "root": "F4",
+    "quality": "minor",
+    "initial": [
+      "F4",
+      "A4",
+      "C5"
+    ],
+    "target": [
+      "F4",
+      "Ab4",
+      "C5"
+    ],
+    "initialMidi": [
+      65,
+      69,
+      72
+    ],
+    "targetMidi": [
+      65,
+      68,
+      72
+    ],
+    "editableSlots": [
+      0,
+      1,
+      2
+    ],
+    "allowedMidi": [
+      60,
+      74
+    ],
+    "registerMode": "exact",
+    "spellingRequired": false,
+    "inversion": 0,
+    "primaryConcept": "minor-third",
+    "hintPolicy": "optional",
+    "reflection": {
+      "prompt": "F→Ab, F→C의 반음 수는?",
+      "options": [
+        "3과 7",
+        "4와 7",
+        "3과 6"
+      ],
+      "answerIndex": 0
+    },
+    "displaySpellingMap": {
+      "60": "C4",
+      "61": "Db4",
+      "62": "D4",
+      "63": "Eb4",
+      "64": "E4",
+      "65": "F4",
+      "66": "F#4",
+      "67": "G4",
+      "68": "Ab4",
+      "69": "A4",
+      "70": "Bb4",
+      "71": "B4",
+      "72": "C5",
+      "73": "Db5",
+      "74": "D5"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "id": "CR07",
+    "title": "가운데 음만 고치지 않기",
+    "root": "C4",
+    "quality": "major",
+    "initial": [
+      "C4",
+      "E4",
+      "F#4"
+    ],
+    "target": [
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "initialMidi": [
+      60,
+      64,
+      66
+    ],
+    "targetMidi": [
+      60,
+      64,
+      67
+    ],
+    "editableSlots": [
+      0,
+      1,
+      2
+    ],
+    "allowedMidi": [
+      60,
+      74
+    ],
+    "registerMode": "exact",
+    "spellingRequired": false,
+    "inversion": 0,
+    "primaryConcept": "fifth",
+    "hintPolicy": "optional",
+    "reflection": {
+      "prompt": "장·단3화음에서 근음과 5음의 간격은?",
+      "options": [
+        "7반음",
+        "3반음",
+        "4반음"
+      ],
+      "answerIndex": 0
+    },
+    "displaySpellingMap": {
+      "60": "C4",
+      "61": "Db4",
+      "62": "D4",
+      "63": "Eb4",
+      "64": "E4",
+      "65": "F4",
+      "66": "F#4",
+      "67": "G4",
+      "68": "Ab4",
+      "69": "A4",
+      "70": "Bb4",
+      "71": "B4",
+      "72": "C5",
+      "73": "Db5",
+      "74": "D5"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "contentVersion": "1.0.0",
+    "id": "CR08",
+    "title": "주문의 근음 확인",
+    "root": "F4",
+    "quality": "minor",
+    "initial": [
+      "E4",
+      "Ab4",
+      "C5"
+    ],
+    "target": [
+      "F4",
+      "Ab4",
+      "C5"
+    ],
+    "initialMidi": [
+      64,
+      68,
+      72
+    ],
+    "targetMidi": [
+      65,
+      68,
+      72
+    ],
+    "editableSlots": [
+      0,
+      1,
+      2
+    ],
+    "allowedMidi": [
+      60,
+      74
+    ],
+    "registerMode": "exact",
+    "spellingRequired": false,
+    "inversion": 0,
+    "primaryConcept": "root",
+    "hintPolicy": "optional",
+    "reflection": {
+      "prompt": "F단3화음의 근음과 3음은?",
+      "options": [
+        "F와 Ab",
+        "Ab와 C",
+        "E와 Ab"
+      ],
+      "answerIndex": 0
+    },
+    "displaySpellingMap": {
+      "60": "C4",
+      "61": "Db4",
+      "62": "D4",
+      "63": "Eb4",
+      "64": "E4",
+      "65": "F4",
+      "66": "F#4",
+      "67": "G4",
+      "68": "Ab4",
+      "69": "A4",
+      "70": "Bb4",
+      "71": "B4",
+      "72": "C5",
+      "73": "Db5",
+      "74": "D5"
+    }
+  }
+]

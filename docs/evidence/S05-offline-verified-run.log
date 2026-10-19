@@ -1,0 +1,40 @@
+
+Running 4 tests using 1 worker
+
+(node:15168) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [chromium] ??tests\e2e\audio-engine.spec.ts:104:1 ??S05 actual offline reference matrix: six chords, 24 voices, two rates and volumes (1.4s)
+  ok 2 [chromium] ??tests\e2e\audio-engine.spec.ts:127:1 ??S05 actual offline mute and zero master produce silence (674ms)
+  x  3 [chromium] ??tests\e2e\audio-engine.spec.ts:143:1 ??S05 actual offline MIDI 60 to 74 pitch and A4 reference partials (880ms)
+(node:35320) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 4 [chromium] ??tests\e2e\audio-engine.spec.ts:168:1 ??S05 browser clicks unlock one real context and finite C4 Eb4 E4 G4 previews (3.4s)
+
+
+  1) [chromium] ??tests\e2e\audio-engine.spec.ts:143:1 ??S05 actual offline MIDI 60 to 74 pitch and A4 reference partials 
+
+    Error: page.evaluate: Execution context was destroyed, most likely because of a navigation.
+
+      26 |
+      27 | async function render(page:Page,cases:RenderCase[]):Promise<RenderResult[]>{
+    > 28 |   return page.evaluate(async fixtures=>{
+         |               ^
+      29 |     // These are the exact factories used by the runtime, transformed by Vite.
+      30 |     // No replica synthesis or mock AudioContext is used in this harness.
+      31 |     const voiceUrl='/src/audio/create-voice.ts';
+        at render (C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\chord-repair-shop\tests\e2e\audio-engine.spec.ts:28:15)
+        at C:\Users\kimyo\Documents\Codex\2026-10-19\task-4\chord-repair-shop\tests\e2e\audio-engine.spec.ts:148:23
+
+    Error Context: test-results\e2e-audio-engine-S05-actua-699b1-h-and-A4-reference-partials-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ?????????????????????????????????????????????????????????
+    test-results\e2e-audio-engine-S05-actua-699b1-h-and-A4-reference-partials-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\e2e-audio-engine-S05-actua-699b1-h-and-A4-reference-partials-chromium\trace.zip
+
+    ????????????????????????????????????????????????????????????????????????????????????????????????
+
+  1 failed
+    [chromium] ??tests\e2e\audio-engine.spec.ts:143:1 ??S05 actual offline MIDI 60 to 74 pitch and A4 reference partials 
+  3 passed (8.4s)

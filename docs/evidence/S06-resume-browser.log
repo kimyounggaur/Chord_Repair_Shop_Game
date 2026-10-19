@@ -1,0 +1,29 @@
+
+Running 22 tests using 1 worker
+
+(node:39652) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:72:1 ??S06 actual UI stays locked until a gesture and silent start creates no context (2.0s)
+  ok  2 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:93:1 ??S06 original current comparison and arpeggio buttons schedule native audio (2.1s)
+  ok  3 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:112:1 ??S06 editing a live comparison invalidates its old generation and future chord (4.1s)
+  ok  4 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:128:1 ??S06 undo reset and order-list navigation cancel ongoing comparison (11.0s)
+  ok  5 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:157:1 ??S06 ten rapid comparison clicks retain one context and bounded voices then stop (5.2s)
+  ok  6 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:175:1 ??S06 pointer cancel and window blur release preview without committing the note (2.2s)
+  ok  7 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:194:1 ??S06 pagehide pageshow stop and suspend without automatic return playback (5.1s)
+  ok  8 [chromium] ??tests\e2e\audio-lifecycle.spec.ts:215:1 ??S06 simulated visibility hidden and visible keep edits and wait for a new gesture (5.1s)
+  ok  9 [chromium] ??tests\e2e\ui-audio-lifecycle.spec.ts:24:1 ??silent choice invalidates a pending enable without late settings change (791ms)
+  ok 10 [chromium] ??tests\e2e\ui-audio-lifecycle.spec.ts:33:3 ??pending enable cannot continue after navigation (913ms)
+  ok 11 [chromium] ??tests\e2e\ui-audio-lifecycle.spec.ts:33:3 ??pending enable cannot continue after pagehide (920ms)
+  ok 12 [chromium] ??tests\e2e\ui-audio-lifecycle.spec.ts:33:3 ??pending enable cannot continue after unmount (897ms)
+  ok 13 [chromium] ??tests\e2e\ui-audio-lifecycle.spec.ts:45:1 ??external audio state preserves input focus; volume and mute do not change notes or hints (1.6s)
+  ok 14 [chromium] ??tests\e2e\workbench.spec.ts:13:1 ??silent CR01 wrong, repair, unrevealed question, and completion (1.6s)
+  ok 15 [chromium] ??tests\e2e\workbench.spec.ts:29:1 ??current focus, locked slots, same MIDI, undo, reset cancel and confirm (1.9s)
+  ok 16 [chromium] ??tests\e2e\workbench.spec.ts:51:1 ??piano and pads share input, roving keys, Enter Space and Escape (1.4s)
+  ok 17 [chromium] ??tests\e2e\workbench.spec.ts:71:1 ??canceled pointers, scroll and multitouch never commit a note (1.4s)
+  ok 18 [chromium] ??tests\e2e\workbench.spec.ts:88:1 ??native mobile touch release commits once after implicit capture release (1.4s)
+  ok 19 [chromium] ??tests\e2e\workbench.spec.ts:100:3 ??layout 320x740 (1.6s)
+  ok 20 [chromium] ??tests\e2e\workbench.spec.ts:100:3 ??layout 390x844 (2.0s)
+  ok 21 [chromium] ??tests\e2e\workbench.spec.ts:100:3 ??layout 844x390 (2.2s)
+  ok 22 [chromium] ??tests\e2e\workbench.spec.ts:115:1 ??200 percent layout and 56px piano keys remain usable (1.7s)
+
+  22 passed (59.4s)

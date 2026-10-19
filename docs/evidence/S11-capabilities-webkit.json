@@ -1,0 +1,10 @@
+{
+  "browser": "27.2",
+  "host": "win32",
+  "capabilities": {
+    "audio": "undefined",
+    "offline": "undefined",
+    "indexedDB": "object"
+  },
+  "nativeAudio": "NOT RUN: APIs absent. Only unavailable-audio fallback tested."
+}

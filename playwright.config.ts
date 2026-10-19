@@ -1,0 +1,4 @@
+// Windows Playwright WebKit 27.2 has no AudioContext/OfflineAudioContext.
+// Native audio is explicitly NOT RUN there; capability/fallback, UI, storage and a11y still run.
+import {defineConfig,devices} from '@playwright/test';
+export default defineConfig({testDir:'tests',testMatch:'**/*.spec.ts',fullyParallel:false,workers:1,timeout:30000,reporter:[['list'],['html',{open:'never'}]],use:{baseURL:process.env.BASE_URL??'http://127.0.0.1:5486',trace:'retain-on-failure',screenshot:'only-on-failure'},projects:[{name:'chromium',use:{...devices['Desktop Chrome']}},{name:'firefox',use:{...devices['Desktop Firefox']}},{name:'webkit',grepInvert:process.platform==='win32'?/@native-audio/:undefined,use:{...devices['Desktop Safari']}}],webServer:process.env.BASE_URL?undefined:{command:'npm run dev',url:'http://127.0.0.1:5486',reuseExistingServer:true}});

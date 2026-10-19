@@ -1,0 +1,118 @@
+{
+  "recordedAt": "2026-10-19T15:49:55.014Z",
+  "test": "@native-audio S06 pagehide pageshow stop and suspend without automatic return playback",
+  "browserVersion": "156.0.8078.4",
+  "project": "chromium",
+  "node": "v24.14.0",
+  "verification": "Actual application UI with native browser AudioContext. Lifecycle events are synthetic automation. No physical listening, iOS/Android device, phone interruption, Bluetooth or acoustic latency result is implied.",
+  "observations": [
+    {
+      "label": "playing",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 4,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 6,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.30133333333333334,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 4,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.040000000000000036,
+          "endAt": 2.6613333333333333
+        }
+      }
+    },
+    {
+      "label": "pagehide",
+      "diagnostics": {
+        "phase": "paused",
+        "generation": 8,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 0,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 6,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.48,
+        "contextState": "suspended",
+        "transport": {
+          "mode": null,
+          "activeGeneration": null,
+          "timerCount": 0,
+          "pending": false,
+          "elapsed": 0,
+          "endAt": null
+        }
+      }
+    },
+    {
+      "label": "pageshow-no-autoplay",
+      "diagnostics": {
+        "phase": "paused",
+        "generation": 8,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 0,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 6,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.48,
+        "contextState": "suspended",
+        "transport": {
+          "mode": null,
+          "activeGeneration": null,
+          "timerCount": 0,
+          "pending": false,
+          "elapsed": 0,
+          "endAt": null
+        }
+      }
+    },
+    {
+      "label": "explicit-restart",
+      "diagnostics": {
+        "phase": "playing",
+        "generation": 9,
+        "volume": 0.35,
+        "muted": false,
+        "musicalVoices": 6,
+        "peakVoices": 6,
+        "contextCreations": 1,
+        "scheduledEvents": 12,
+        "pendingRequests": 0,
+        "listenerBindings": 4,
+        "subscriptions": 4,
+        "fallback": false,
+        "currentTime": 0.592,
+        "contextState": "running",
+        "transport": {
+          "mode": "compare",
+          "activeGeneration": 9,
+          "timerCount": 1,
+          "pending": false,
+          "elapsed": 0.10133333333333333,
+          "endAt": 2.8906666666666667
+        }
+      }
+    }
+  ]
+}
