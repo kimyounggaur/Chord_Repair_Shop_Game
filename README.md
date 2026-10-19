@@ -2,7 +2,11 @@
 
 세 개의 음을 직접 바꾸며 장·단3화음의 관계를 탐색하는 한국어 모바일 웹 게임입니다. C/Cm/F/Fm/G/Gm, 원본 8개 주문, 기기 내 저장, 자유 실험과 8마디 합주를 구현한 독립 프로젝트입니다.
 
+[게임 실행](https://chord-repair-shop-game.vercel.app/) · [GitHub](https://github.com/kimyounggaur/Chord_Repair_Shop_Game) · [배포 검증 근거](docs/handoffs/S14.md)
+
 현재 **개발 후보, 출시 준비 미완료**입니다. 실행한 검사와 실기기·청취·AT·사용자 관찰의 미완료 항목은 [QA 보고](docs/qa/test-report.md)와 [출시 후보 판단](docs/release/release-candidate.md)을 확인하세요.
+
+2026-10-19: 단위·통합·오디오198, 브라우저 기능117/접근성27, 실제20분356회 연속 실행을 통과했습니다. 별도 Vercel 프로젝트의 READY 및 운영 URL의58개 정적 파일 해시·모바일8주문·저장 복원·제스처 오디오·직접 경로 새로고침을 확인했습니다.
 
 ## 실행
 

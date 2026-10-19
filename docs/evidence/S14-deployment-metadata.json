@@ -1,0 +1,28 @@
+{
+  "recordedAt": "2026-10-19T16:11:06Z",
+  "id": "dpl_9kpALQEfrjRNzBfwkXL6P3LzRB8k",
+  "project": {
+    "id": "prj_OVGc33G4LRJ5vQjKBA9FCIerZYNu",
+    "name": "chord-repair-shop-game",
+    "framework": "vite"
+  },
+  "state": "READY",
+  "readyState": "READY",
+  "ready": 1792426228216,
+  "target": "production",
+  "url": "chord-repair-shop-game-96az6osqt-kimyounggaurs-projects.vercel.app",
+  "alias": [
+    "chord-repair-shop-game.vercel.app",
+    "chord-repair-shop-game-kimyounggaurs-projects.vercel.app",
+    "chord-repair-shop-game-git-main-kimyounggaurs-projects.vercel.app"
+  ],
+  "aliasError": null,
+  "source": "git",
+  "meta": {
+    "githubCommitRef": "main",
+    "githubCommitSha": "be4dc0f039175ee581176c606d91270f1b0dc49e",
+    "githubCommitMessage": "Keep Vercel config bytes stable across local and hosted builds",
+    "githubRepo": "Chord_Repair_Shop_Game",
+    "githubOrg": "kimyounggaur"
+  }
+}

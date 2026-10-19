@@ -4,7 +4,7 @@
 
 앱1.0.0/contentVersion1.0.0/schemaVersion1. `scripts/build-release.mjs`가 앱 코드·빌드 설정·원본 콘텐츠·제공 자산 manifest·lockfile SHA를 묶어 releaseId를 생성한다. `dist/release.json`의 artifact 목록은 자기 자신을 제외한 모든 정적 파일의 path/SHA를 정렬한 목록이다. 이 목록의 hash와 실제 파일 bytes를 운영 URL에서 대조한다. 전체 dist의 release.json까지 포함한 외부 검증 manifest는 clean-run evidence에 별도로 보존한다. Git SHA는 VERCEL_GIT_COMMIT_SHA 또는 실제 HEAD를 쓰며 없으면 null이다.
 
-현재 후보 releaseId: `chord-repair-1.0.0-fcbf1d928d2155ef`. artifact manifest: `16b9bafb1fc3af0507083ca6dcfb471f946ba21074febd4cce043c825e1b5954`. 최종 복사 manifest와 clean summary를 함께 확인한다. 이 문서 작성만으로 Git push/배포 READY를 주장하지 않는다.
+현재 배포 후보 releaseId: `chord-repair-1.0.0-86067313a3cb4c84`. artifact manifest: `16b9bafb1fc3af0507083ca6dcfb471f946ba21074febd4cce043c825e1b5954`. S11 후보 fcbf1d928d2155ef 이후 sourceFiles 진단과 동일 의미의 vercel.json 직렬화를 맞췄으며 게임 정적58파일은 그대로다. [진단](deployment-identity-diagnosis.md), build-manifest.json과 [S14 실제 검증](../handoffs/S14.md)을 함께 확인한다. 최초 커밋 전 manifest는 build-manifest-precommit.json에 보존한다.
 
 ## 원본24장12개 체크리스트
 

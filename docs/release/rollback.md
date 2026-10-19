@@ -1,6 +1,6 @@
 # 정적 배포 되돌리기 절차
 
-이번 프로젝트는 최초 배포 후보이며 이전 정상 운영 deployment가 없다. 따라서 운영 rollback을 수행·검증했다고 보고하지 않는다. 로컬 원본 백업과 Git 이력은 그대로 보존했다.
+이번 프로젝트의 최초 배포 전에 이전 정상 운영 deployment는 없었다. S14에서 검증한 be4dc0f의 READY deployment `dpl_9kpALQEfrjRNzBfwkXL6P3LzRB8k`와 실제 manifest는 이후 동일 앱 후보의 기준점으로 남긴다. 운영 rollback은 실제 수행·검증하지 않았다. 로컬 원본 백업과 Git 이력은 그대로 보존했다.
 
 다음 정상 버전부터는 검증된 commit/releaseId와 immutable deployment ID, 실제 release.json/해시 manifest를 기록한다. 문제가 있는 새 배포는 원인·노출 상태를 먼저 확인한 뒤 기존 승인 범위 안에서 정상 deployment를 production alias로 되돌린다. 삭제나 force push로 이력을 없애지 않는다. 기존이 없는 첫 배포 실패라면 정상 버전을 지어내지 말고 실패 상태를 알린다.
 

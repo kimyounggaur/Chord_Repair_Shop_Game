@@ -18,6 +18,6 @@
 | S11 회귀·실기기·성능·보안 | PASS 자동 검증 / 실기기 NOT RUN | clean 단위100+통합31+오디오67, E2E117/접근성27, production/offline/실제20분356회 PASS. `handoffs/S11.md` |
 | S12 사용성·전이 검증 준비 | PASS 준비 / 관찰 NOT RUN | 계획·빈 동의/관찰 양식·별도6문항 검산. 참가자 결과 없음. `handoffs/S12.md` |
 | S13 출시 감사·인수인계 | PASS 문서 감사 / 정식 출시 게이트 미완료 | 원본12개 체크리스트·후보 manifest·운영/한계/복구 문서. `handoffs/S13.md` |
-| S14 GitHub/Vercel 배포·사후 확인 | NOT RUN | 사용자는 지정 저장소 push/별도 Vercel 배포 승인. READY·commit·운영 URL 확인 필요 |
+| S14 GitHub/Vercel 배포·사후 확인 | PASS 개발 후보 배포 | be4dc0f 원격 push/별도 Vercel READY, 운영 URL58파일·헤더·모바일8주문·저장/route reload PASS. 문서 후속 commit도 SHA별 재확인. `handoffs/S14.md` |
 
 각 담당자는 실행한 단계의 명령·exit code·테스트 수·증거 경로를 `handoffs/Sxx.md`에 기록한 뒤 해당 행을 갱신한다. 미실행·실패·실기기 부족은 자동 PASS로 바꾸지 않는다. 이전 근거와 한계는 후속 해결 근거와 함께 유지한다.
