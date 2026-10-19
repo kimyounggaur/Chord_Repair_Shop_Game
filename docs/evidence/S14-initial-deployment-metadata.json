@@ -1,0 +1,39 @@
+{
+  "recordedAt": "2026-10-19T16:06:00Z",
+  "scope": "Initial code deployment metadata before source identity correction. Public manifest check failed; not final release verification.",
+  "id": "dpl_3MdTYrHwuhCv6BbD5PgbSzn8Vowa",
+  "name": "chord-repair-shop-game",
+  "url": "chord-repair-shop-game-oz6rh5wsy-kimyounggaurs-projects.vercel.app",
+  "type": "LAMBDAS",
+  "state": "READY",
+  "createdAt": 1792425922016,
+  "creator": {
+    "uid": "yvKjfAvyTkm1GjrZ2gIuSB7Q",
+    "username": "kimyounggaur"
+  },
+  "project": {
+    "id": "prj_OVGc33G4LRJ5vQjKBA9FCIerZYNu",
+    "name": "chord-repair-shop-game",
+    "framework": "vite"
+  },
+  "meta": {
+    "githubCommitRef": "3e01e47e8a7550c4ed55130181c48e77a72d9115",
+    "githubCommitSha": "3e01e47e8a7550c4ed55130181c48e77a72d9115",
+    "githubCommitMessage": "Implement Chord Repair Shop with verified eight-order learning flow",
+    "githubRepo": "Chord_Repair_Shop_Game",
+    "githubOrg": "kimyounggaur"
+  },
+  "alias": [
+    "chord-repair-shop-game.vercel.app",
+    "chord-repair-shop-game-kimyounggaurs-projects.vercel.app",
+    "chord-repair-shop-game-git-3e01e4-1c05e6-kimyounggaurs-projects.vercel.app"
+  ],
+  "target": "production",
+  "regions": [
+    "iad1"
+  ],
+  "buildingAt": 1792425923280,
+  "ready": 1792425933409,
+  "readyState": "READY",
+  "aliasError": null
+}

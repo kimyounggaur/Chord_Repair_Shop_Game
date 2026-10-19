@@ -1,0 +1,47 @@
+
+> chord-repair-shop@1.0.0 build
+> npm run verify:reference && npm run test:content && npm run typecheck && vite build && node scripts/build-release.mjs
+
+
+> chord-repair-shop@1.0.0 verify:reference
+> node scripts/verify-reference.mjs docs/design.md src/content/orders.v1.json
+
+{
+  "status": "REFERENCE_DATA_PASS",
+  "orders": 8,
+  "ensembleEvents": 59,
+  "contentVersion": "1.0.0",
+  "bodySeconds": 24,
+  "transportEndSeconds": 24.4,
+  "designSha256": "65cfbfda1d8f0b1256df402ec833b7f8653daf9db31037270372c92314221681",
+  "extractedJsonSha256": "922645f1096ee902be1ffd4e391ad361799aeae1e410ab33cd55c3860a7f2057",
+  "scope": "Reference content/math only. Game implementation, device audio, accessibility, storage and learning outcomes NOT tested."
+}
+
+> chord-repair-shop@1.0.0 test:content
+> vitest run tests/unit/content.test.ts
+
+
+ RUN  v5.0.5 C:/Users/kimyo/Documents/Codex/2026-10-19/task-4/chord-repair-shop
+
+
+ Test Files  1 passed (1)
+      Tests  25 passed (25)
+   Start at  01:09:35
+   Duration  184ms (transform 39%, import 33%, tests 23%, worker 5%)
+
+
+> chord-repair-shop@1.0.0 typecheck
+> tsc --noEmit
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 58 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.51 kB │ gzip:   0.36 kB
+dist/assets/index-p6p-cCnk.css   26.56 kB │ gzip:   6.61 kB
+dist/assets/index-BFUoqhL1.js   354.84 kB │ gzip: 107.45 kB
+
+✓ built in 178ms
+{"releaseId":"chord-repair-1.0.0-86067313a3cb4c84","gitCommit":"ea49ab702dccdc230bbcc82a82f9a0fdcf378fd1","artifactManifestSha256":"16b9bafb1fc3af0507083ca6dcfb471f946ba21074febd4cce043c825e1b5954"}
